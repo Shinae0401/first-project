@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Type" content="text/xml; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <title>포토갤러리</title>
+
+        <!-- Boxicons CDN Link -->
+        <link rel="stylesheet" href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+        <!--Material Icons CDN-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+        <!--swiper-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="../../css/main.css">
+        <link rel="stylesheet" href="../../css/Newsroom.css">
+        <link rel="stylesheet" href="../../css/responsive.css">    
+    </head>
+    <body>
+        <div id="wrap">
+            <!--======================
+            header 
+            ========================-->
+            <header>
+                <!----- \\ logo \\ ----->
+                <h1 class="logo">
+                    <a href="../../index.html"><img src="../../image/rio_logo.png" alt="로고"></a>
+                </h1>
+
+                <!----- \\ main__nav \\ ----->
+                <nav class="main__nav">
+                    <!-- links -->
+                    <ul class="gnb">
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__list">COMPANY<i class='bx bxs-chevron-down arrow'></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu__list"><a href="../../subpage/About/about_1.html">회사개요</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/About/about_2.html">사업영역</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/About/about_3.html">연혁</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/About/about_4.html">수상 및 인증</a></li>
+                            </ul>
+                        </li>                  
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__list">TECHNOLOGY<i class='bx bxs-chevron-down arrow'></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_1.html">첨단로봇기술</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_2.html">Ai 인공지능기술</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_3.html">센서기술</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_4.html">무선전송기술</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_5.html">의료기기임상</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__list">PRODUCT<i class='bx bxs-chevron-down arrow'></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu__list">
+                                    <a href="#">전산화 인지훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../subpage/Products/product1/product1_1.html">CoTras</a></li>
+                                        <li><a href="../../subpage/Products/product1/product1_2.html">CoTras-D</a></li>
+                                        <li><a href="../../subpage/Products/product1/product1_3.html">CoTras-G</a></li>
+                                        <li><a href="../../subpage/Products/product1/product1_4.html">CoTras-M</a></li>
+                                        <li><a href="../../subpage/Products/product1/product1_5.html">CoTras-P</a></li>
+                                        <li><a href="../../subpage/Products/product1/product1_6.html">CoTras-Pro</a></li>
+                                        <li><a href="../../subpage/Products/product1/product1_7.html">CoTras-Table</a></li>
+                                        <li><a href="../../subpage/Products/product1/product1_8.html">CoTras-UNTACT</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub__menu__list">
+                                    <a href="#">전산화 인지검사<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../subpage/Products/product2/product2_1.html">CoSAS</a></li>
+                                        <li><a href="../../subpage/Products/product2/product2_2.html">TCFT</a></li>
+                                        <li><a href="../../subpage/Products/product2/product2_3.html">CAB</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub__menu__list">
+                                    <a href="#">아동인지 훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../subpage/Products/product3/product3_1.html">CoTras-C</a></li>
+                                        <li><a href="../../subpage/Products/product3/product3_2.html">CCFT</a></li>
+                                        <li><a href="../../subpage/Products/product3/product3_3.html">K-DTVP3</a></li>
+                                    </ul>
+                                </li>              
+                                <li class="sub__menu__list">
+                                    <a href="#">재활운동장비<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../subpage/Products/product4/product4_1.html">SP-1100C</a></li>
+                                        <li><a href="../../subpage/Products/product4/product4_2.html">SP-1100</a></li>
+                                        <li><a href="../../subpage/Products/product4/product4_3.html">SP-1100E</a></li>
+                                        <li><a href="../../subpage/Products/product4/product4_4.html">SP-1100P</a></li>
+                                        <li><a href="../../subpage/Products/product4/product4_5.html">SP-2100P</a></li>
+                                        <li><a href="../../subpage/Products/product4/product4_6.html">SE-1100</a></li>
+                                        <li><a href="../../subpage/Products/product4/product4_7.html">MT-2000</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub__menu__list">
+                                    <a href="#">재활로봇장비<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../subpage/Products/product5/product5_1.html">EXO-WALK</a></li>
+                                        <li><a href="../../subpage/Products/product5/product5_2.html">R-BoT</a></li>
+                                        <li><a href="../../subpage/Products/product5/product5_3.html">CoBi</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub__menu__list">
+                                    <a href="#">스마트순환운동<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../subpage/Products/product6/product6_1.html">Core Shoulder</a></li>
+                                        <li><a href="../../subpage/Products/product6/product6_2.html">Core Trunk</a></li>
+                                        <li><a href="../../subpage/Products/product6/product6_3.html">Core Lower Back</a></li>
+                                        <li><a href="../../subpage/Products/product6/product6_4.html">Core Pelvic</a></li>
+                                        <li><a href="../../subpage/Products/product6/product6_5.html">Core Gait</a></li>
+                                        <li><a href="../../subpage/Products/product6/product6_6.html">Core Hip</a></li>
+                                        <li><a href="../../subpage/Products/product6/product6_7.html">Core Knee</a></li>
+                                        <li><a href="../../subpage/Products/product6/product6_8.html">Core Total Body</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub__menu__list">
+                                    <a href="#">VR 재활훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../subpage/Products/product7/product7_1.html">CoTras-VR</a></li>
+                                        <li><a href="../../subpage/Products/product7/product7_2.html">CoTras-AR</a></li>
+                                        <li><a href="../../subpage/Products/product7/product7_3.html">Motion Training</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__list">PR CENTER<i class='bx bxs-chevron-down arrow'></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu__list"><a href="../../subpage/PrCenter/PrCenter_1.html">뉴스</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/PrCenter/PrCenter_2.html">포토갤러리</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/PrCenter/PrCenter_3.html">유튜브영상</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__list">CS CENTER<i class='bx bxs-chevron-down arrow'></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu__list"><a href="../../subpage/CsCenter/CsCenter_1.html">공지사항</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/CsCenter/CsCenter_2.html">문의게시판</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item"><a href="../../subpage/Contact/contact.html" class="menu__item__list">CONTACT US</a></li>
+                    </ul>
+                </nav>
+
+                <div class="lang__menu font14">
+                    <div class="selected__lang flex-row-jr">
+                        <a href="#">
+                            <img src="https://www.countryflagicons.com/FLAT/32/KR.png">
+                            <span class="material-icons-sharp">arrow_drop_down</span>
+                        </a>
+                    </div>
+                    <ul class="dropdown__lang dropdown-menu-right">
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://www.countryflagicons.com/FLAT/32/KR.png">
+                                Korea
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://www.countryflagicons.com/FLAT/32/JP.png">
+                                Japan
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://www.countryflagicons.com/FLAT/32/US.png">
+                                English
+                            </a>
+                        </li>                            
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://www.countryflagicons.com/FLAT/32/CN.png">
+                                China
+                            </a>
+                        </li>                            
+                    </ul>
+                </div>
+
+                <!----- \\ overlay-navigation \\ ----->
+                <div class="overlay-navigation">
+                    <div role="navigation" class="navigation">
+                        <ul>
+                            <li>
+                                <a href="#">COMPANY</a>
+                                <a href="../../subpage/About/about_1.html">회사개요</a>
+                                <a href="../../subpage/About/about_2.html">사업영역</a>
+                                <a href="../../subpage/About/about_3.html">연혁</a>
+                                <a href="../../subpage/About/about_4.html">수상 및 인증</a>
+                            </li>                  
+                            <li>
+                                <a href="#">TECHNOLOGY</a>
+                                <a href="../../subpage/Technology/technology_1.html">첨단로봇기술</a>
+                                <a href="../../subpage/Technology/technology_2.html">Ai 인공지능기술</a>
+                                <a href="../../subpage/Technology/technology_3.html">센서기술</a>
+                                <a href="../../subpage/Technology/technology_4.html">무선전송기술</a>
+                                <a href="../../subpage/Technology/technology_5.html">의료기기임상</a>
+                            </li>
+                            <li>
+                                <a href="../../subpage/Products/product1/product1_1.html">PRODUCT</a>
+                                <a href="../../subpage/Products/product1/product2_1.html">전산화 인지훈련</a>
+                                <a href="../../subpage/Products/product1/product3_1.html">전산화 인지검사</a>
+                                <a href="../../subpage/Products/product1/product4_1.html">아동인지 훈련</a>
+                                <a href="../../subpage/Products/product1/product5_1.html">재활운동장비</a>
+                                <a href="../../subpage/Products/product1/product6_1.html">재활로봇장비</a>
+                                <a href="../../subpage/Products/product1/product7_1.html">스마트순환운동</a>
+                                <a href="../../subpage/Products/product1/product8_1.html">VR 재활훈련</a>                                    
+                            </li>
+                            <li>
+                                <a href="#">PR CENTER</a>
+                                <a href="../../subpage/PrCenter/PrCenter_1.html">뉴스</a>
+                                <a href="../../subpage/PrCenter/PrCenter_2.html">포토갤러리</a>
+                                <a href="../../subpage/PrCenter/PrCenter_3.html">유튜브영상</a>
+                            </li>
+                            <li>
+                                <a href="#">CS CENTER</a>
+                                <a href="../../subpage/CsCenter/CsCenter_1.html">공지사항</a>
+                                <a href="../../subpage/CsCenter/CsCenter_2.html">문의게시판</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="open-overlay-btn">
+                    <div class="open-overlay">
+                        <span class="bar-top"></span>
+                        <span class="bar-middle"></span>
+                        <span class="bar-bottom"></span>
+                    </div>
+                </div>                    
+            </header>
+            <!----- \\ ham 햄버거 메뉴\\ ----->
+            <div class="ham">
+                <span class="bar"></span>
+            </div>
+
+            <!--======================
+            banner 
+            ========================-->
+            <div class ="banner flex-row-ic-jc">
+                <span class="banner__img"></span>
+                <div class="banner__container">
+                    <h1 class="font64">PR CENTER</h1>
+                    <p class="font32">홍보센터</p>
+                    <a id="scroll-btn" href="#side__menu"></a>
+                </div>
+            </div>
+
+            <!--======================
+            side__menu 
+            ========================-->
+            <div id="side__menu">
+                <div class="container">
+                    <ul class ="subMn flex-row-ic-jc font16">
+                        <li><a href="../../subpage/PrCenter/PrCenter_1.html">뉴스</a></li>
+                        <li><a href="../../subpage/PrCenter/PrCenter_2.html" class="active">포토갤러리</a></li>
+                        <li><a href="../../subpage/PrCenter/PrCenter_3.html">유튜브영상</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--======================== 
+            main_title
+            ========================-->
+            <div class="main_title">
+                <div class="container flex-column-ic-jc">
+                    <h2 class="font40">포토 갤러리</h2>
+                    <p class="font24">PHOTO GALLERY</p>
+                </div>                
+            </div>
+
+            <!--======================== 
+            main
+            ========================-->
+            <main class="gallery">
+                <div class="container">
+                    <div class="toolbar flex-row-ic-jb">
+                        <!----- \\ search-bar \\ ----->
+                        <div class="search-wrapper flex-row-ic-jb">
+                            <select class="font16">
+                                <option>제목</option>
+                                <option>내용</option>
+                            </select>
+                            <input class="font16" type="search" placeholder="검색어 입력"/>
+                            <span class="material-icons-sharp">search</span>
+                        </div>
+
+                        <!----- \\ main-content-item \\ ----->
+                        <ul class="view-options flex-row-ic">
+                            <li class="zoom">
+                                <input type="range" min="180" max="380" value="280" />
+                            </li>
+                            <li class="show-grid active">
+                                <button>
+                                    <img
+                                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/grid-view.svg"
+                                    alt="grid view"
+                                    />
+                                </button>
+                                </li>
+                                <li class="show-list">
+                                <button>
+                                    <img
+                                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/list-view.svg"
+                                    alt="list view"
+                                    />
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <ol class="image-list grid-view">
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_1.png" alt=""/>
+                                    <figcaption>
+                                        <h4>근로복지공단 재활공학연구소 '첨단 보행 기기' 개발 주도 (주)알피오,연세대학교</h4>
+                                        <p>근로복지공단 AI기술을 활용한 무릎 굽힘 제어형 슬관절 보조기(사진 왼쪽)와 슬관절 보조기에 장착하는 초정밀 유압실린더(사진 오른쪽). ⓒ의협신문 근로복지공단 근로복지공단 AI기술을 활용한 무릎 굽힘 제어형 슬관절 보조기(사진 왼쪽)와 슬관절 보조기에 장착하는 초정밀 유압실린더(사진 오른쪽). ⓒ의협신문 근로복지공단</p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_2.jpg" alt=""/>
+                                    <figcaption>
+                                        <h4>증가하는 치매 환자, 치솟는 치매 병원비,사회적문제로 떠오른 치매</h4>
+                                        <p>치매 진료환자의 증가세를 심상치 않다. 심평원 통계자료에 따르면 지난해 기준 치매로 진료를 받은 환자가 42만4239명으로 전년대비 3만7632명이 늘어 9.7% 증가율을 기록했다. 최근 가파른 상승세를 보이고 있는 것이다. 이는 2014년 35만7089명에서 2015년</p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_3.png" alt=""/>
+                                    <figcaption>
+                                        <h4>[인터뷰] 이문형 경기도의료원 이천병원장 “재활로봇 도입… 지역에서도 양질의 치료 받을 수 있어”</h4>
+                                        <p>이문형 경기도의료원 이천병원장이 최근 본지와의 인터뷰를 통해 “병원 신축을 하면서 주력 상품을 고민한 끝에 지방의료원에서는 처음으로 재활로봇을 도입하게 됐다”고 밝히고 있다. (제공: 이천병원)  고령화와 뇌졸중 환자의 생존율 증가로 인한 기능 장애 환자들이 느는 추세로</p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li><li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_4.png" alt=""/>
+                                    <figcaption>
+                                        <h4>의령군 치매안심센터 프로그램 운영 재개</h4>
+                                        <p>의령군 치매안심센터는 코로나로부터 일상이 회복됨에 따라 지난 4일부터 치매 환자를 대상으로 하는인지자극프로그램인 치매환자쉼터를 비대면에서 대면프로그램으로 정상적으로 재개해 10월 말까지 운영한다고 밝혔다.쉼터는 치매안심센터에 등록된 경증치매 환자 중</p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_5.gif" alt=""/>
+                                    <figcaption>
+                                        <h4>경희대병원, ‘동대문구 치매안심마을 캠페인’ 진행</h4>
+                                        <p>동대문구 치매안심센터 치매 관련 지원 사업과 이용 방법 소개참가자 대상 치매 조기검진 및 전문상담 진행경희대병원(병원장 오주형)은 김종우 부원장(정신건강의학과 교수)이 동대문구 치매안심센터와 함께 ‘치매안심마을, 함께해요’ 캠페인을 진행했다고 밝혔다.</p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_6.png" alt=""/>
+                                    <figcaption>
+                                        <h4>동대문구, ‘치매안심마을, 함께해요’ 캠페인  </h4>
+                                        <p>서울 동대문구치매안심센터(센터장 김종우)가 오는 14일 오전 10시부터 오후 4시까지 장안근린공원에서 이동식 카페 ‘기억다방’과 함께 ‘치매안심마을, 함께해요.’ 캠페인을 실시한다고 밝혔다.‘기억다방’은 ‘기억을 지키는 다양한 방법’을 뜻하는 이동식 카페다.</p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_1.png" alt=""/>
+                                    <figcaption>
+                                        <h4>생명보험재단, 태블릿PC 활용 비대면 ‘인지재활프로그램’ 실시</h4>
+                                        <p>◆…생명보험재단 태블릿PC 기반 인지재활프로그램 사용 모습. 사진=명보험사회공헌재단 제공 생명보험사회공헌재단이 코로나19로 복지 사각지대에 놓인 어르신의 돌봄 공백을 해소하기 위해 비대면 복지 지원사업인 태블릿PC 기반 ‘인지재활프로그램’을 실시한다고 27일</p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_1.png" alt=""/>
+                                    <figcaption>
+                                        <h4>3D가상현실 모니터와 접목한 재활 의료기기 체험</h4>
+                                        <p>국내 최대 의료기기·병원설비 전시회 'KIMES 2022'가 10~13일 나흘 일정으로 서울 강남구 코엑스에서 열렸다. 넷블루 부스에서 관람객이 가상현실 이미지를 통해 자신의 족적을 보며 재활훈련을 할 수 있는 기립경사 재활훈련 로봇 '알봇 플러스'를 체험하고 있다. </p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_1.png" alt=""/>
+                                    <figcaption>
+                                        <h4>3D가상현실 모니터와 접목한 재활 의료기기 체험</h4>
+                                        <p>국내 최대 의료기기·병원설비 전시회 'KIMES 2022'가 10~13일 나흘 일정으로 서울 강남구 코엑스에서 열렸다. 넷블루 부스에서 관람객이 가상현실 이미지를 통해 자신의 족적을 보며 재활훈련을 할 수 있는 기립경사 재활훈련 로봇 '알봇 플러스'를 체험하고 있다. </p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_1.png" alt=""/>
+                                    <figcaption>
+                                        <h4>3D가상현실 모니터와 접목한 재활 의료기기 체험</h4>
+                                        <p>국내 최대 의료기기·병원설비 전시회 'KIMES 2022'가 10~13일 나흘 일정으로 서울 강남구 코엑스에서 열렸다. 넷블루 부스에서 관람객이 가상현실 이미지를 통해 자신의 족적을 보며 재활훈련을 할 수 있는 기립경사 재활훈련 로봇 '알봇 플러스'를 체험하고 있다. </p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_1.png" alt=""/>
+                                    <figcaption>
+                                        <h4>3D가상현실 모니터와 접목한 재활 의료기기 체험</h4>
+                                        <p>국내 최대 의료기기·병원설비 전시회 'KIMES 2022'가 10~13일 나흘 일정으로 서울 강남구 코엑스에서 열렸다. 넷블루 부스에서 관람객이 가상현실 이미지를 통해 자신의 족적을 보며 재활훈련을 할 수 있는 기립경사 재활훈련 로봇 '알봇 플러스'를 체험하고 있다. </p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_1.png" alt=""/>
+                                    <figcaption>
+                                        <h4>3D가상현실 모니터와 접목한 재활 의료기기 체험</h4>
+                                        <p>국내 최대 의료기기·병원설비 전시회 'KIMES 2022'가 10~13일 나흘 일정으로 서울 강남구 코엑스에서 열렸다. 넷블루 부스에서 관람객이 가상현실 이미지를 통해 자신의 족적을 보며 재활훈련을 할 수 있는 기립경사 재활훈련 로봇 '알봇 플러스'를 체험하고 있다. </p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_1.png" alt=""/>
+                                    <figcaption>
+                                        <h4>3D가상현실 모니터와 접목한 재활 의료기기 체험</h4>
+                                        <p>국내 최대 의료기기·병원설비 전시회 'KIMES 2022'가 10~13일 나흘 일정으로 서울 강남구 코엑스에서 열렸다. 넷블루 부스에서 관람객이 가상현실 이미지를 통해 자신의 족적을 보며 재활훈련을 할 수 있는 기립경사 재활훈련 로봇 '알봇 플러스'를 체험하고 있다. </p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="">
+                                    <img src="../../image/pr_img/pr1_1.png" alt=""/>
+                                    <figcaption>
+                                        <h4>3D가상현실 모니터와 접목한 재활 의료기기 체험</h4>
+                                        <p>국내 최대 의료기기·병원설비 전시회 'KIMES 2022'가 10~13일 나흘 일정으로 서울 강남구 코엑스에서 열렸다. 넷블루 부스에서 관람객이 가상현실 이미지를 통해 자신의 족적을 보며 재활훈련을 할 수 있는 기립경사 재활훈련 로봇 '알봇 플러스'를 체험하고 있다. </p>
+                                        <span class="post-date"><span class="material-icons-sharp">update</span>2019.10.27</span>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>                        
+                    </ol>
+
+
+                <!----- \\ page_bar \\ ----->
+                <div class="page_bar">
+                    <!--<li class="page-item previous-page disable"><a class="page-link" href="#">Prev</a></li>
+                    <li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item dots"><a class="page-link" href="#">...</a></li>
+                    <li class="page-item current-page"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item current-page"><a class="page-link" href="#">6</a></li>
+                    <li class="page-item dots"><a class="page-link" href="#">...</a></li>
+                    <li class="page-item current-page"><a class="page-link" href="#">10</a></li>
+                    <li class="page-item next-page"><a class="page-link" href="#">Next</a></li>-->
+                </div>            
+            </main>   
+
+            <!--====================
+            footer
+            ========================-->
+            <footer>
+                <div class="container flex-row flex-wrap font14">
+                    <div class="footer-policy flex-row-ic">
+                        <a href=""><strong class="font16">개인정보처리방침</strong></a>
+                    </div>
+                    <div class="footer-social">
+                        <ul>
+                            <li><img src="../../image/social/kakao1.png"></li>
+                            <li><img src="../../image/social/cafe1.png"></li>
+                            <li><img src="../../image/social/blog1.png"></li>
+                            <li><img src="../../image/social/yootube1.png"></li>
+                        </ul>
+                    </div>
+                    <div class="footer-info">
+                        <p><span>대표이사 : ㅇㅇㅇ</span><span>사업자번호 : 123-456-7890</span></p>
+                        <p>주소 : 서울시 금천구 가산디지털2로 98 롯데IT캐슬1동 1107~1108호</p>
+                        <p>FAX : 02-862-2034</p>
+                        <p>Mail : mail@info.com</p>
+                    </div>
+                    <div class="footer-tell">
+                        <h5>(주)알피오<span class="font20">대표전화</span></h5>
+                        <p class="font24"><span>TEL : </span> 02-862-2033</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!--====================
+        script 
+        ========================-->
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" charset="utf-8"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        
+        <script src="../../js/nav.js"></script>  
+        <script src="../../js/common.js"></script>
+        <script src="../../js/prcenter.js"></script>
+    </body>
+</html>

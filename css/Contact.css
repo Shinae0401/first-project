@@ -1,0 +1,138 @@
+.banner__img {
+    background: url(../image/contact_img/contact_main.jpg) no-repeat center;
+    background-attachment: fixed; background-size: 100% 100%;}
+#side__menu {background: none;}
+footer {margin-bottom: 75px;}
+
+/*==========================================================
+contact
+============================================================*/
+.contactUs .container {height: 100%; padding: 5em 1em;}
+.contactUs form {width: 100%; height: 100%; padding: 0 1em;}
+
+/* --------------------- 
+input-check
+--------------------- */
+.input-check {width: 100%; gap: 1em;}
+.input-check .check_item {width: calc(100%/6); padding: 1em; border: 1px solid #ddd; border-radius: 1em;}
+.input-check .check_item .img {width: 4em; height: 4em;}
+.input-check .check_item:nth-child(1) .img{
+    background: url(../../image/contact_img/contact_1.png) no-repeat center;
+    background-size: cover;}
+.input-check .check_item:nth-child(2) .img{
+    background: url(../../image/contact_img/contact_2.png) no-repeat center;
+    background-size: cover;}
+.input-check .check_item:nth-child(3) .img{
+    background: url(../../image/contact_img/contact_3.png) no-repeat center;
+    background-size: cover;}
+.input-check .check_item:nth-child(4) .img{
+    background: url(../../image/contact_img/contact_4.png) no-repeat center;
+    background-size: cover;}
+.input-check .check_item:nth-child(5) .img{
+    background: url(../../image/contact_img/contact_5.png) no-repeat center;
+    background-size: cover;}
+.input-check .check_item:nth-child(6) .img{
+    background: url(../../image/contact_img/contact_6.png) no-repeat center;
+    background-size: cover;}
+
+.input-check .check_item span {margin-top: 0.5em;}
+.input-check .check_item input {display: inline-block;}
+.input-check .check_item span label {padding: 0.5em 0; cursor: pointer; color: #444;}
+.input-check .check_item input:checked + label {color: var(--color-main);}
+
+/* --------------------- 
+form
+--------------------- */
+.contactUs .container {padding: 5em 0;}
+.form .text__box { /* input */
+    height: 50px; width: 15em; padding: 0 1.25em; border-radius: 6px; border: 1px solid transparent;
+    background: #fafafa !important; font-size: inherit; color: #222;}
+
+.form > li {display: flex; align-items: center; margin-top: 1.5em;}
+.form > li > label {width: 15%; color: #080a14;}
+.form > li > label > sup {margin-left: 5px; color: var(--color-main);}
+.form > li .inputbox {width: 85%; position: relative; left: 0; display: flex; align-items: center;}
+
+
+/*이름*/
+.name__box .inputbox .name {width: 20em;}
+
+/*연락처*/
+.phone-number .inputbox > span {display: flex; align-items: center; width: 0.75em; height: 2px;
+    margin: 0 8px; background: #080a14;}
+.form > li .inputbox select { width: 10em; height: 50px; font-size: inherit; padding: 0 1.25em;
+    border-radius: 6px;  border: 1px solid transparent; color: #080a14; 
+    -webkit-appearance: none; -moz-appearance: none; appearance: none;
+    background: url(../image/contact_img/num-arrow-down.png)no-repeat #fafafa;
+    background-position: 85% center;}
+
+/*이메일*/
+.email__box .email span {margin: 0 10px;}
+.email__box .email3 {margin-left: 1em;}
+.email__box .email_select {margin-left: 1.3em; padding-left: 1.25em;}
+
+/*제목*/
+.title__box .text-title {width: 100%;}
+
+/*내용*/
+.textarea__box textarea {width: 100%; min-height: 11.25em; padding: 1.25em; border-radius: 6px;
+    border: 1px solid transparent; resize: none; background: rgb(250, 250, 250);}
+.textarea__box textarea::placeholder {color: #888; font-size: inherit;}
+.textarea__box textarea:focus {outline:none; background: #fff; border: 2px solid var(--color-main);
+    box-sizing: border-box;}
+
+/*첨부파일*/
+.attach-files .filebox__box {width: 85%;}
+.attach-files .filebox__box .filebox {width: 100%; display: flex;}
+.attach-files .filebox .upload-name {width: 85%; padding: 0 1.25em; font-size: inherit; background: #fafafa;}
+.attach-files .filebox .file {
+    width: 15%; height: 3.125em; line-height: 3.125em; text-align: center; font-size: inherit; margin-left: 0.625em;
+    border: 1px solid #080a14; border-radius: 0.4em; cursor: pointer;}
+.attach-files .filebox input[type="file"] {
+	position: absolute; width: 0; height: 1px; padding: 0; margin: -1px;
+	overflow: hidden; clip:rect(0,0,0,0); border: 0;}
+
+/*개인정보*/
+.privacy__box {border: 1px solid #ddd;}
+.privacy__box .label-text-top {width: 15%; text-align: center;}
+.privacy__box .privacy {width: 85%; height: 13.125em; padding: 2em; background: #fafafa;
+    border-radius: 0.4em; box-sizing: border-box;  overflow-y: scroll;}
+.privacy__box .privacy h3 {margin: 1em; font-weight: 500;}
+.privacy__box .privacy p {color: #888; padding: 0 1em;  margin-bottom: 1.25em;}
+
+/* agree-check */
+.agree-check {margin-top: 1.25em;}
+.checkbox {width: 1.25em; height: 1.25em; margin-right: 1em;}
+.check-text {color: #666;}
+
+/*버튼*/
+.end-box button {padding: 1em 3em; margin: 3em 0; border-radius: 0.4em; border: none;
+    background: var(--color-main); color: #fff; font-weight: 600; cursor: pointer; transition: all 0.5s;}
+.end-box button:hover {box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;}
+
+/* ===============================
+Contact Us
+================================== */
+@media(max-width:768px) {
+    .input-check .check_item {padding: 0.5em;}    
+    .input-check .check_item input {width: 10px;}
+    .form .text__box {width: 32%; height: 40px;}
+    /*이름*/
+    .name__box .inputbox .name {width: 100%;}
+    /*연락처*/
+    .form > li .inputbox select {width: 30%; height: 40px;}
+    /*버튼*/
+    .end-box button {height: 3em;}
+}
+
+@media(max-width:576px) {
+    .input-check .check_item input {width: 8px;}
+    .form .text__box,
+    .form > li .inputbox select {height: 30px;}
+    .email__box .email_select,
+    .form > li .inputbox select {background-size: 10px;}
+}
+
+@media(max-width:370px) {
+    .input-check .check_item input {width: 6px;}
+}

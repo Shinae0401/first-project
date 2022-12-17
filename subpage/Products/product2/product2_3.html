@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Type" content="text/xml; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <title>CAB</title>
+
+        <!-- Boxicons CDN Link -->
+        <link rel="stylesheet" href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+        <!--Material Icons CDN-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+        <!--swiper-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="../../../css/main.css">
+        <link rel="stylesheet" href="../../../css/Product.css">
+        <link rel="stylesheet" href="../../../css/responsive.css">    
+    </head>
+    <body>
+        <div id="wrap">
+            <!--======================
+            header 
+            ========================-->
+            <header>
+                <!----- \\ logo \\ ----->
+                <h1 class="logo">
+                    <a href="../../../index.html"><img src="../../../image/rio_logo.png" alt="로고"></a>
+                </h1>
+
+                <!----- \\ main__nav \\ ----->
+                <nav class="main__nav">
+                    <!-- links -->
+                    <ul class="gnb">
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__list">COMPANY<i class='bx bxs-chevron-down arrow'></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu__list"><a href="../../../subpage/About/about_1.html">회사개요</a></li>
+                                <li class="sub__menu__list"><a href="../../../subpage/About/about_2.html">사업영역</a></li>
+                                <li class="sub__menu__list"><a href="../../../subpage/About/about_3.html">연혁</a></li>
+                                <li class="sub__menu__list"><a href="../../../subpage/About/about_4.html">수상 및 인증</a></li>
+                            </ul>
+                        </li>                  
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__list">TECHNOLOGY<i class='bx bxs-chevron-down arrow'></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu__list"><a href="../../../subpage/Technology/technology_1.html">첨단로봇기술</a></li>
+                                <li class="sub__menu__list"><a href="../../../subpage/Technology/technology_2.html">Ai 인공지능기술</a></li>
+                                <li class="sub__menu__list"><a href="../../../subpage/Technology/technology_3.html">센서기술</a></li>
+                                <li class="sub__menu__list"><a href="../../../subpage/Technology/technology_4.html">무선전송기술</a></li>
+                                <li class="sub__menu__list"><a href="../../../subpage/Technology/technology_5.html">의료기기임상</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__list">PRODUCT<i class='bx bxs-chevron-down arrow'></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu__list">
+                                    <a href="#">전산화 인지훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../../subpage/Products/product1/product1_1.html">CoTras</a></li>
+                                        <li><a href="../../../subpage/Products/product1/product1_2.html">CoTras-D</a></li>
+                                        <li><a href="../../../subpage/Products/product1/product1_3.html">CoTras-G</a></li>
+                                        <li><a href="../../../subpage/Products/product1/product1_4.html">CoTras-M</a></li>
+                                        <li><a href="../../../subpage/Products/product1/product1_5.html">CoTras-P</a></li>
+                                        <li><a href="../../../subpage/Products/product1/product1_6.html">CoTras-Pro</a></li>
+                                        <li><a href="../../../subpage/Products/product1/product1_7.html">CoTras-Table</a></li>
+                                        <li><a href="../../../subpage/Products/product1/product1_8.html">CoTras-UNTACT</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub__menu__list">
+                                    <a href="#">전산화 인지검사<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../../subpage/Products/product2/product2_1.html">CoSAS</a></li>
+                                        <li><a href="../../../subpage/Products/product2/product2_2.html">TCFT</a></li>
+                                        <li><a href="../../../subpage/Products/product2/product2_3.html">CAB</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub__menu__list">
+                                    <a href="#">아동인지 훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../../subpage/Products/product3/product3_1.html">CoTras-C</a></li>
+                                        <li><a href="../../../subpage/Products/product3/product3_2.html">CCFT</a></li>
+                                        <li><a href="../../../subpage/Products/product3/product3_3.html">K-DTVP3</a></li>
+                                    </ul>
+                                </li>              
+                                <li class="sub__menu__list">
+                                    <a href="#">재활운동장비<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../../subpage/Products/product4/product4_1.html">SP-1100C</a></li>
+                                        <li><a href="../../../subpage/Products/product4/product4_2.html">SP-1100</a></li>
+                                        <li><a href="../../../subpage/Products/product4/product4_3.html">SP-1100E</a></li>
+                                        <li><a href="../../../subpage/Products/product4/product4_4.html">SP-1100P</a></li>
+                                        <li><a href="../../../subpage/Products/product4/product4_5.html">SP-2100P</a></li>
+                                        <li><a href="../../../subpage/Products/product4/product4_6.html">SE-1100</a></li>
+                                        <li><a href="../../../subpage/Products/product4/product4_7.html">MT-2000</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub__menu__list">
+                                    <a href="#">재활로봇장비<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../../subpage/Products/product5/product5_1.html">EXO-WALK</a></li>
+                                        <li><a href="../../../subpage/Products/product5/product5_2.html">R-BoT</a></li>
+                                        <li><a href="../../../subpage/Products/product5/product5_3.html">CoBi</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub__menu__list">
+                                    <a href="#">스마트순환운동<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../../subpage/Products/product6/product6_1.html">Core Shoulder</a></li>
+                                        <li><a href="../../../subpage/Products/product6/product6_2.html">Core Trunk</a></li>
+                                        <li><a href="../../../subpage/Products/product6/product6_3.html">Core Lower Back</a></li>
+                                        <li><a href="../../../subpage/Products/product6/product6_4.html">Core Pelvic</a></li>
+                                        <li><a href="../../../subpage/Products/product6/product6_5.html">Core Gait</a></li>
+                                        <li><a href="../../../subpage/Products/product6/product6_6.html">Core Hip</a></li>
+                                        <li><a href="../../../subpage/Products/product6/product6_7.html">Core Knee</a></li>
+                                        <li><a href="../../../subpage/Products/product6/product6_8.html">Core Total Body</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub__menu__list">
+                                    <a href="#">VR 재활훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <ul class="more__sub__menu">
+                                        <li><a href="../../../subpage/Products/product7/product7_1.html">CoTras-VR</a></li>
+                                        <li><a href="../../../subpage/Products/product7/product7_2.html">CoTras-AR</a></li>
+                                        <li><a href="../../../subpage/Products/product7/product7_3.html">Motion Training</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__list">PR CENTER<i class='bx bxs-chevron-down arrow'></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu__list"><a href="../../../subpage/PrCenter/PrCenter_1.html">뉴스</a></li>
+                                <li class="sub__menu__list"><a href="../../../subpage/PrCenter/PrCenter_2.html">포토갤러리</a></li>
+                                <li class="sub__menu__list"><a href="../../../subpage/PrCenter/PrCenter_3.html">유튜브영상</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__list">CS CENTER<i class='bx bxs-chevron-down arrow'></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu__list"><a href="../../../subpage/CsCenter/CsCenter_1.html">공지사항</a></li>
+                                <li class="sub__menu__list"><a href="../../../subpage/CsCenter/CsCenter_2.html">문의게시판</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item"><a href="../../../subpage/Contact/contact.html" class="menu__item__list">CONTACT US</a></li>
+                    </ul>
+                </nav>
+
+                <div class="lang__menu font14">
+                    <div class="selected__lang flex-row-jr">
+                        <a href="#">
+                            <img src="https://www.countryflagicons.com/FLAT/32/KR.png">
+                            <span class="material-icons-sharp">arrow_drop_down</span>
+                        </a>
+                    </div>
+                    <ul class="dropdown__lang dropdown-menu-right">
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://www.countryflagicons.com/FLAT/32/KR.png">
+                                Korea
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://www.countryflagicons.com/FLAT/32/JP.png">
+                                Japan
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://www.countryflagicons.com/FLAT/32/US.png">
+                                English
+                            </a>
+                        </li>                            
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <img src="https://www.countryflagicons.com/FLAT/32/CN.png">
+                                China
+                            </a>
+                        </li>                            
+                    </ul>
+                </div>
+
+                <!----- \\ overlay-navigation \\ ----->
+                <div class="overlay-navigation">
+                    <div role="navigation" class="navigation">
+                        <ul>
+                            <li>
+                                <a href="#">COMPANY</a>
+                                <a href="../../../subpage/About/about_1.html">회사개요</a>
+                                <a href="../../../subpage/About/about_2.html">사업영역</a>
+                                <a href="../../../subpage/About/about_3.html">연혁</a>
+                                <a href="../../../subpage/About/about_4.html">수상 및 인증</a>
+                            </li>                  
+                            <li>
+                                <a href="#">TECHNOLOGY</a>
+                                <a href="../../../subpage/Technology/technology_1.html">첨단로봇기술</a>
+                                <a href="../../../subpage/Technology/technology_2.html">Ai 인공지능기술</a>
+                                <a href="../../../subpage/Technology/technology_3.html">센서기술</a>
+                                <a href="../../../subpage/Technology/technology_4.html">무선전송기술</a>
+                                <a href="../../../subpage/Technology/technology_5.html">의료기기임상</a>
+                            </li>
+                            <li>
+                                <a href="../../../subpage/Products/product1/product1_1.html">PRODUCT</a>
+                                <a href="../../../subpage/Products/product1/product2_1.html">전산화 인지훈련</a>
+                                <a href="../../../subpage/Products/product1/product3_1.html">전산화 인지검사</a>
+                                <a href="../../../subpage/Products/product1/product4_1.html">아동인지 훈련</a>
+                                <a href="../../../subpage/Products/product1/product5_1.html">재활운동장비</a>
+                                <a href="../../../subpage/Products/product1/product6_1.html">재활로봇장비</a>
+                                <a href="../../../subpage/Products/product1/product7_1.html">스마트순환운동</a>
+                                <a href="../../../subpage/Products/product1/product8_1.html">VR 재활훈련</a>                                    
+                            </li>
+                            <li>
+                                <a href="#">PR CENTER</a>
+                                <a href="../../../subpage/PrCenter/PrCenter_1.html">뉴스</a>
+                                <a href="../../../subpage/PrCenter/PrCenter_2.html">포토갤러리</a>
+                                <a href="../../../subpage/PrCenter/PrCenter_3.html">유튜브영상</a>
+                            </li>
+                            <li>
+                                <a href="#">CS CENTER</a>
+                                <a href="../../../subpage/CsCenter/CsCenter_1.html">공지사항</a>
+                                <a href="../../../subpage/CsCenter/CsCenter_2.html">문의게시판</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="open-overlay-btn">
+                    <div class="open-overlay">
+                        <span class="bar-top"></span>
+                        <span class="bar-middle"></span>
+                        <span class="bar-bottom"></span>
+                    </div>
+                </div>                    
+            </header>
+            <!----- \\ ham 햄버거 메뉴\\ ----->
+            <div class="ham">
+                <span class="bar"></span>
+            </div>
+
+            <!--======================
+            banner 
+            ========================-->
+            <div class ="banner flex-row-ic-jc">
+                <span class="banner__img"></span>
+                <div class="banner__container">
+                    <h1 class="font64">PRODUCT</h1>
+                    <p class="font32">제품소개</p>
+                    <a id="scroll-btn" href="#side__menu"></a>
+                </div>
+            </div>
+
+            <!--======================
+            side__menu 
+            ========================-->
+            <div id="side__menu">
+                <div class="container">
+                    <ul class ="subMn flex-row-ic-jc">
+                        <li><a href="../../../subpage/Products/product2/product2_1.html">CoSAS</a></li>
+                        <li><a href="../../../subpage/Products/product2/product2_2.html">TCFT</a></li>
+                        <li><a href="../../../subpage/Products/product2/product2_3.html" class="active">CAB</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--======================
+            main_title
+            ========================-->
+            <div class="main_title">
+                <div class="container flex-column-ic-jc">
+                    <h2 class="font40">전산화 인지검사 프로그램</h2>
+                    <p class="font24">COMPUTERIZED COGNITIVE TESTING PROGRAM</p>            
+                </div>
+            </div>
+
+            <!--======================
+            product_main
+            ========================--> 
+            <section class="product__main">
+                <div class="container flex-row-ic">
+                    <!-- product__main__txt -->
+                    <div class="product__main__txt flex-column-jc font16">
+                        <div class="txt__box flex-column-jc">
+                            <span class="font24">신경인지검사</span>
+                            <h3 class="font48">CAB</h3>
+                            <span class="font20">Cognitive Assessment Batterym</span>
+                            <p class="txt__title__desc">경도인지장애나 치매, 뇌졸중 등 뇌질환에 해당하는 대상자의 신경인지 기능검사를 시행하는 도구이며 태블릿을 통해 이동하면서 간편하게 검사가 가능함</p>                        
+                        </div>
+
+                        <div class="display flex-column-jc font14">
+                            <p>Multi Touch PC & Controller</p>
+                            <table>
+                                <tr>
+                                    <td><span>Display :</span></td>
+                                    <td>10.1" FHD 해상도</td>
+                                </tr>
+                                <tr>
+                                    <td><span>운영체제 :</span></td>
+                                    <td>Android</td>
+                                </tr>
+                                <tr>
+                                    <td><span>CPU :</span></td>
+                                    <td>엑시노스 7870</td>
+                                </tr>
+                            </table>
+                        </div>                
+                    </div>
+                    <!-- product__main__img -->
+                    <div class="product__main__img flex-row-ic-jc">
+                        <img src="../../../image/product_img/product2_image/cab_main.png">
+                    </div>
+                </div>
+            </section>
+
+            <!--======================
+            intro
+            ========================--> 
+            <section class="intro">
+                <div class="container">
+                    <h4 class="font40">CAB 신경인지검사 특징</h4>
+                    <div class="intro__img flex-row-jb font16">
+                        <div class="intro__img_box">
+                            <img src="" alt="">
+                            <span></span>
+                        </div>
+                        <div class="intro__img_box">
+                            <img src="" alt="">
+                            <span></span>
+                        </div>
+                        <div class="intro__img_box">
+                            <img src="" alt="">
+                            <span></span>
+                        </div>
+                        <div class="intro__img_box">
+                            <img src="" alt="">
+                            <span></span>
+                        </div>
+                    </div>                
+                </div>
+            </section>
+
+            <!--======================
+            video
+            ========================-->
+            <section class="video">
+                <div class="container">
+                    <h4 class="font40">제품 영상보기</h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j5qgMlKhpho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <!--======================
+            software
+            ========================--> 
+            <section class="software">
+                <div class="container font16">
+                    <h4 class="font40">Software</h4>
+
+                    <div class="soft__con display_flex_column">
+                        <div class="soft__item__main flex-row">
+                            <!-- soft__item__img -->
+                            <div class="soft__item__img">
+                                <div class="tabs">
+                                    <div class="tab-header flex-row-ic-ja font18">
+                                        <div class="active">Main Menu</div>
+                                        <div>User Infomation-1</div>
+                                        <div>User Infomation-2</div>
+                                    </div>
+                                    <div class="tab-body">
+                                        <div class="active">
+                                            <img src="../../../image/product_img/product2_image/cab_1.png">
+                                        </div>
+                                        <div>
+                                            <img src="../../../image/product_img/product2_image/cab_2.png">
+                                        </div>
+                                        <div>
+                                            <img src="../../../image/product_img/product2_image/cab_3.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- soft__item__txt -->
+                            <div class="soft__item__txt flex-column-ic-jc">
+                                <h5 class="font32">Main Scene</h5>
+                                <h6>각성도 및 주의력, 기억력, 언어능력, 지각 및 시공간 능력 등 신경인지 기능 전반의 검사를 시행해 검사결과를 바탕으로 대상자의 인지 기능에 대한 정보를 분석하여 인지 기능평가에 대한 보다 명확한 프로파일을 제공하는 프로그램</h6>
+                            </div>                        
+                        </div>
+
+                        <div class="soft__item flex-row-ic-jb flex-wrap">
+                            <h5 class="font32">Diagnostic</h5>
+                            <div class="soft__item_img">
+                                <img src="../../../image/product_img/product2_image/cab_4.png">
+                            </div>
+                            <div class="soft__item_img">
+                                <img src="../../../image/product_img/product2_image/cab_5.png">
+                            </div>
+                            <div class="soft__item_img">
+                                <img src="../../../image/product_img/product2_image/cab_6.png">
+                            </div>
+                            <div class="soft__item__txt">
+                                <p>수기로 시행하던 구식적 방식의 불편함을 해소하고 태블릿을 통해 이동하면서 간편하게 검사가 가능함</p>
+                                <p>검사 항목별 시간 및 환경을 통일하여 일관성있게 평가함</p>
+                                <p>검사결과의 전반적인 데이터를 PC에 전송하여 기록관리가 편리함</p>
+                                <p>사용성이 편한 UI와 한눈에 알아볼 수 있는 이미지로 검사의 집중도 향상</p>
+                                <p>결과지 인쇄가 가능하며 인쇄로 인해 전체적인 검사 내용을 한눈에 볼 수 있음</p>
+                                <p>비문해자를 배려해 모든 검사문제를 음성으로 문제를 읽어주는 기능</p>
+                            </div>
+                        </div>
+
+                        <div class="soft__item flex-row-ic-jb flex-wrap">
+                            <h5 class="font32">Result</h5>
+                            <div class="soft__item_img">
+                                <img src="../../../image/product_img/product2_image/cab_7.png">
+                            </div>
+                            <div class="soft__item_img">
+                                <img src="../../../image/product_img/product2_image/cab_8.png">
+                            </div>
+                            <div class="soft__item_img">
+                                <img src="../../../image/product_img/product2_image/cab_9.png">
+                            </div>
+                            <div class="soft__item__txt">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--======================
+            code
+            ========================--> 
+            <section class="code">
+                <div class="container font16">
+                    <table class="table">
+                        <tr>
+                            <th class="font18" colspan="7">급여대상(적응증)</th>
+                        </tr>
+                        <tr>
+                            <td>경도인지장애</td>
+                            <td>경증 치매<br>증등도 치매</td>
+                            <td>뇌졸중 등<br>뇌혈관 질환</td>
+                            <td>기질적 뇌질환<br>(뇌종양, 뇌염, 탈수초성질환,<br>뇌전증, 외상성 뇌손상 등)</td>
+                            <td>뇌성마비<br>발달지연</td>
+                            <td>정신질환</td>
+                            <td>약물난치성<br>뇌전증수술 대상 환자</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th class="font18" colspan="4">건강보험 요양급여코드</th>
+                        </tr>
+                        <tr>
+                            <td>유형 1</td>
+                            <td>유형 2</td>
+                            <td>유형 3</td>
+                            <td>유형 4</td>
+                        </tr>
+                        <tr>
+                            <td>18가지 항목검사</td>
+                            <td>12가지 항목검사</td>
+                            <td>4가지 항목검사</td>
+                            <td>1가지 항목검사</td>
+                        </tr>
+                        <tr>
+                            <td>CAB</td>
+                            <td colspan="3">TCFT</td>
+                        </tr>
+                    </table>   
+                    <p class="font14">*위 유형()은 별도 구매 항목이고, 위 TCFT에 포함되어 있지 않습니다.</p>         
+                </div>
+            </section>
+
+            <!--======================
+            user
+            ========================--> 
+            <section class="user">
+                <div class="container">
+                    <h4 class="font40">CUSTOMERS</h4>
+                    <div class="user__img flex-row-ic-jb flex-wrap">
+                        <div class="user__img_item">
+                            <img src="" alt="">
+                        </div>                   
+                        <div class="user__img_item">
+                            <img src="" alt="">
+                        </div>
+                        <div class="user__img_item">
+                            <img src="" alt="">
+                        </div> 
+                        <div class="user__img_item">
+                            <img src="" alt="">
+                        </div> 
+                        <div class="user__img_item">
+                            <img src="" alt="">
+                        </div> 
+                        <div class="user__img_item">
+                            <img src="" alt="">
+                        </div> 
+                        <div class="user__img_item">
+                            <img src="" alt="">
+                        </div> 
+                        <div class="user__img_item">
+                            <img src="" alt="">
+                        </div> 
+                    </div>
+                </div>
+            </section>    
+
+            <!--======================
+            footer
+            ========================-->
+            <footer>
+                <div class="container flex-row flex-wrap font14">
+                    <div class="footer-policy flex-row-ic">
+                        <a href=""><strong class="font16">개인정보처리방침</strong></a>
+                    </div>
+                    <div class="footer-social">
+                        <ul>
+                            <li><img src="../../../image/social/kakao1.png"></li>
+                            <li><img src="../../../image/social/cafe1.png"></li>
+                            <li><img src="../../../image/social/blog1.png"></li>
+                            <li><img src="../../../image/social/yootube1.png"></li>
+                        </ul>
+                    </div>
+                    <div class="footer-info">
+                        <p><span>대표이사 : ㅇㅇㅇ</span><span>사업자번호 : 123-456-7890</span></p>
+                        <p>주소 : 서울시 금천구 가산디지털2로 98 롯데IT캐슬1동 1107~1108호</p>
+                        <p>FAX : 02-862-2034</p>
+                        <p>Mail : mail@info.com</p>
+                    </div>
+                    <div class="footer-tell">
+                        <h5>(주)알피오<span class="font20">대표전화</span></h5>
+                        <p class="font24"><span>TEL : </span> 02-862-2033</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!--======================
+        script
+        ========================-->
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" charset="utf-8"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>           
+        <script src="../../../js/nav.js"></script>
+        <script src="../../../js/common.js"></script>
+        <script src="../../../js/product.js"></script>
+    </body>
+</html>
