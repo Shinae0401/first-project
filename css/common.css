@@ -193,6 +193,9 @@ header .logo img {height: 2em; padding-left: 2em;}
     .lang__menu .lang__list a img {width: 20px;}
     .ham__btn {width: 50px;}
     .ham__btn .hamburger .line {width: 18px; height: 1.8px;}
+    .navigation .menu_1 .menu_1_list > a {font-size: 16px;}
+    .navigation .menu_1 .menu_1_list .menu_2 > li a {font-size: 14px;}
+    .navigation .menu_1 .menu_1_list .menu_2 .menu_3 > li a  {font-size: 12px;}
 }
 
 @media (max-width: 300px) {

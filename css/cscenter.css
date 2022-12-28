@@ -9,8 +9,8 @@ footer{position: relative; bottom: 50px;}
 main {margin-bottom: 100px;}
 
 /* ----- \\ search-wrapper \\ ----- */
-.search-wrapper {position: relative; overflow: hidden; margin-top: 1em;}
-.search-wrapper input {width: 40%; padding: 0.6em; border: 1px solid var(--gray); border-radius: 4px;}
+.search-wrapper {width: 30%; position: relative; overflow: hidden; margin-top: 1em;}
+.search-wrapper input {width: 100%; padding: 0.6em; border: 1px solid var(--gray); border-radius: 4px;}
 .search-wrapper p {margin-left: 1em;}
 
 /* ----- \\ page_bar \\ ----- */
@@ -29,3 +29,8 @@ main {margin-bottom: 100px;}
 #cs__table table tbody td:nth-child(2) {text-align: left;}
 #cs__table table tr {border-bottom: 1px solid var(--border-line); transition: 0.3s;}
 #cs__table table tbody tr:hover {background: var(--main-bg);}
+
+
+@media(max-width:768px) {
+    .search-wrapper {width: 40%;}
+}
