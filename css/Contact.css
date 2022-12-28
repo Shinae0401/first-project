@@ -80,6 +80,9 @@
 .end-box > button:hover {box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;}
 
 /* ----- \\ contact__media \\ ----- */
+@media(max-width:1000px) {
+    .banner .banner__img {background-size: 100% 150%;}
+}
 @media(max-width:768px) {
     .contact__form .text__box, .contact__form > li .inputBox select {width: 32%;}
     .name__box .inputBox .name, .title__box .text-title {width: 100%;}

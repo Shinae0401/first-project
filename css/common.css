@@ -5,7 +5,7 @@ section {height: 100vh;}
 /* ----- \\ go-top(맨위로가기) \\ ----- */
 #go-top {
     position: fixed; cursor: pointer; z-index: 900;
-    bottom: 20px; right: 10px; width: 60px; height: 60px; border-radius: 50%;
+    bottom: 15px; right: 10px; width: 60px; height: 60px; border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); display: none;}
 #go-top #go-top-value {
     display: grid; place-items: center;

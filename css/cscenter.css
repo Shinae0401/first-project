@@ -9,8 +9,8 @@ footer{position: relative; bottom: 50px;}
 main {margin-bottom: 100px;}
 
 /* ----- \\ search-wrapper \\ ----- */
-.search-wrapper {height: 40px; position: relative; overflow: hidden;}
-.search-wrapper input {width: 23%; height: 100%; border: 1px solid var(--gray); border-radius: 4px; padding: 0.5em;}
+.search-wrapper {position: relative; overflow: hidden; margin-top: 1em;}
+.search-wrapper input {width: 40%; padding: 0.6em; border: 1px solid var(--gray); border-radius: 4px;}
 .search-wrapper p {margin-left: 1em;}
 
 /* ----- \\ page_bar \\ ----- */
@@ -20,25 +20,11 @@ main {margin-bottom: 100px;}
 .csPagination .page_bar li a {color: #fff; line-height: 40px;}
 .page_bar li.active {background:var(--color-main); color: #fff;}
 
-/* ----- \\ page_bar__media \\ ----- */
-@media(max-width:768px) {
-    .page_bar li a {line-height: 30px;}
-    .previous-page, .next-page {width: 60px;}
-    .current-page, .dots {width: 30px;}
-}
-@media(max-width:576px) {
-    .page_bar li a {line-height: 25px;}
-    .previous-page, .next-page {width: 50px;}
-    .current-page, .dots {width: 25px;}
-}
-@media(max-width:400px) {
-    .page_bar li a {line-height: 20px;}
-    .previous-page, .next-page {width: 40px;}
-    .current-page, .dots {width: 20px;}
-}
-#cs__table {margin-top: 10px; line-height: 3em;}
-#cs__table table thead th {background-color: var(--main-bg); color: var(--dark-black)}
-#cs__table table tbody td {transition: all 0.3s; text-align: center;}
+
+#cs__table {margin-top: 10px;}
+#cs__table table thead th {padding: 1em 0; background-color: var(--main-bg); color: var(--dark-black)}
+#cs__table table tbody td {padding: 0.5em 0; transition: all 0.3s; text-align: center;}
+#cs__table table tbody td:nth-child(2) {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 #cs__table table tbody td:nth-child(1) {font-weight:500;}
 #cs__table table tbody td:nth-child(2) {text-align: left;}
 #cs__table table tr {border-bottom: 1px solid var(--border-line); transition: 0.3s;}
