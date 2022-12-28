@@ -1,84 +1,23 @@
-.banner__img {background: url(../image/technology_image/banner.jpg) no-repeat center; background-attachment: fixed; background-size: 100% 100%;}
-footer {margin-bottom: 75px;}
-/* ===============================
-common
-================================== */
-/* technology__intro */
-.tech__intro {height: 50vh; background:var(--color-bg1); padding: 2em 0;}
-.tech__intro_txt {width: 50%; padding: 0 1em; text-align: left;}
-.tech__intro_txt h3 {letter-spacing: -1px; margin-bottom: 0.5em; color: var(--color-font2);}
-.tech__intro_img {width: 50%; height: 100%;}
-.tech__intro_img img {width: 100%; height: 100%;}
+@import "common.css"; /* css 초기화*/
 
-/* technology__des */
-.tech__desc {padding: 5em 0;}
-.tech__desc h3 {text-align: center; padding-bottom: 3em; color: var(--color-font2);}
-.tech__desc__box {width: 100%;}
-.tech__desc__item {width: calc(94%/3); font-size: 1em; padding: 2em; position: relative;}
-.tech__desc__item span {position: absolute; top: -1.6em; left: 0; color: var(--color-main); border-bottom: 3px solid var(--color-main);}
+.banner .banner__img {background: url(../image/technology_image/banner.jpg) no-repeat center; background-attachment: fixed; background-size: 100% 100%;}
+footer{position: relative; bottom: 70px;}
 
-.tech__desc__item > img {width: 100%; height: 13em; margin-top: 1em;}
+/* ----- \\ tech__intro \\ ----- */
+.tech__intro {height: 40vh;}
+.tech__intro .tech__intro_txt {width: 55%; padding-right: 1em;}
+.tech__intro .tech__intro_txt h4 {margin-bottom: 0.5em;}
+.tech__intro .tech__intro_img {width: 45%;}
+.tech__intro .tech__intro_img img {width: 100%; height: 100%;}
 
-/*============================
-tech__img
-==============================*/
-.tech__img .container {margin-bottom: 5em;}
-.tech__img .container img {width: 100%; height: 100%;}
+/* ----- \\ tech__desc \\ ----- */
+.tech__desc {padding: 3em 1em; margin: 3em 0; background-color: var(--main-bg);}
 
-/*============================
-technology3 
-==============================*/
-.tech__desc .tech3_img {margin-top: 3em;}
+.tech__desc h4 {text-align: center; padding-bottom: 2em; color: var(--color-font2);}
+.tech__desc .tech__desc-box {width: 100%;}
+.tech__desc .tech__desc-item {width: calc(94%/3); font-size: 1em; padding: 2em; position: relative;}
+.tech__desc .tech__desc-item span {position: absolute; top: -1.6em; left: 0; color: var(--color-main); border-bottom: 3px solid var(--color-main);}
 
-.tech_3 .box {margin-top: 2em; margin-bottom: 5em;}
-.tech_3 .img {width: 40%; padding: 2em 3em;}
-.tech_3 .img img {width: 100%; height: 100%;}
-.tech_3 .box table {width: 60%; border-top:  2px solid #888;}
-.tech_3 .box table tr {border-bottom: 1px solid #ddd;}
-.tech_3 .box table td {line-height: 2em; vertical-align: middle;}
-.tech_3 .box table .td1 {font-weight: 600; width: 20%;}
-
-/*============================
-technology4 
-==============================*/
-/* technology__desc */
-.tech__desc_4 .tech__desc__item {width: calc(94%/2); font-weight: 600; height: 100%;}
-.tech__desc_4 .tech__desc__item img { width: 100%; height: 15em;}
-
-/* tech4__1 */
-.tech4__1 p {margin: 1em 0;}
-.tech4__1 img {width: 100%;}
-.tech4__1 .img_box {padding: 2em 0; gap: 2em; font-weight: 600;}
-.tech4__1 .img_box .img {width: 30%;}
-.tech4__1 .img_box .img img { border: 1px solid #ddd;}
-.tech4__1 .img_box p
-,.tech__img {padding: 0.4em 0;}
-
-/* technology4__2 */
-.tech4__2 .container {padding-bottom: 5em;}
-.tech4__2 p {
-    width: calc(90%/7);
-    background:var(--color-bg1);
-    padding: 1em;
-    border-radius: 0.5em;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/*============================
-technology5 
-==============================*/
-.tech__img5 .img_box1 {width: 100%;}
-.tech__img5 p {width: 100%; font-weight: 600; padding: 0.4em 0;}
-.tech__img5 .img_box1 img, .tech__img .img_box2 img {width: 50%;}
-.tech__img5 .img_box2 {width: 65%; height: 30vh; background: #fff;}
-.tech__img5 .img_box3 {width: 35%; height: 30vh; background: #fff;}
-.tech__img5 .img_box2 img, .tech__img .img_box3 img {height: 100%;}
-.tech__img5 .img_box3 img {width: 100%;}
-
-
-
-
-
+/* ----- \\ tech__img \\ ----- */
+.tech__img {padding-bottom: 10em;}
+.tech__img img {width: 100%; height: 100%;}

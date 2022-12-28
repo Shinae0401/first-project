@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -9,40 +8,42 @@
     
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-        <title>회사개요</title>
+        <title>About__2</title>
 
-        <!-- Boxicons CDN Link -->
-        <link rel="stylesheet" href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" charset="utf-8"></script>
+
+        <!-- fontAwesome CDN -->
+        <script src="https://kit.fontawesome.com/c2e96161e0.js" crossorigin="anonymous"></script>
         <!--Material Icons CDN-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
-        <!--swiper-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-        <!--bootstrap-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" crossorigin="anonymous"/>
 
-        <!--CSS-->
-        <link rel="stylesheet" href="../../css/main.css">
-        <link rel="stylesheet" href="../../css/AboutUs.css">
-        <link rel="stylesheet" href="../../css/responsive.css">    
+        <link rel="stylesheet" href="../../css/about.css">
     </head>
     <body>
-        <div id="wrap">
-            <!--======================
-            header 
-            ========================-->
-            <header>
-                <!----- \\ logo \\ ----->
-                <h1 class="logo">
-                    <a href="../../index.html"><img src="../../image/rio_logo.png" alt="로고"></a>
+        <div class="wrap">
+            <!----- \\ go-top(맨위로가기) \\ ----->
+            <div id="go-top" class="fRowIcJc">
+                <span id="go-top-value" class="fs20">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </span>
+            </div>
+            <!----- \\ right__line \\ ----->
+            <div class="right__line"></div>
+            
+            <!----- \\ header \\ ----->
+            <header class="fRowIc fs16">
+                <!-- logo -->
+                <h1 class="logo fRowIcJc">
+                    <a href="../../index.html" class="fRowIc"><img src="../../image/rio_logo.png" alt="로고"></a>
                 </h1>
 
-                <!----- \\ main__nav \\ ----->
+                <!-- main__nav -->
                 <nav class="main__nav">
-                    <!-- links -->
-                    <ul class="gnb">
+                    <ul class="gnb fRowIcJb">
                         <li class="menu__item">
-                            <a href="#" class="menu__item__list">COMPANY<i class='bx bxs-chevron-down arrow'></i></a>
-                            <ul class="sub__menu">
+                            <a href="#" class="menu__item__list">COMPANY<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub__menu fs15">
                                 <li class="sub__menu__list"><a href="../../subpage/About/about_1.html">회사개요</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/About/about_2.html">사업영역</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/About/about_3.html">연혁</a></li>
@@ -50,20 +51,18 @@
                             </ul>
                         </li>                  
                         <li class="menu__item">
-                            <a href="#" class="menu__item__list">TECHNOLOGY<i class='bx bxs-chevron-down arrow'></i></a>
-                            <ul class="sub__menu">
+                            <a href="#" class="menu__item__list">TECHNOLOGY<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub__menu fs15">
                                 <li class="sub__menu__list"><a href="../../subpage/Technology/technology_1.html">첨단로봇기술</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/Technology/technology_2.html">Ai 인공지능기술</a></li>
-                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_3.html">센서기술</a></li>
-                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_4.html">무선전송기술</a></li>
-                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_5.html">의료기기임상</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_3.html">인지재활 미래기술</a></li>
                             </ul>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__item__list">PRODUCT<i class='bx bxs-chevron-down arrow'></i></a>
-                            <ul class="sub__menu">
+                            <a href="#" class="menu__item__list">PRODUCT<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub__menu fs15">
                                 <li class="sub__menu__list">
-                                    <a href="#">전산화 인지훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">전산화 인지훈련<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product1/product1_1.html">CoTras</a></li>
                                         <li><a href="../../subpage/Products/product1/product1_2.html">CoTras-D</a></li>
@@ -76,7 +75,7 @@
                                     </ul>
                                 </li>
                                 <li class="sub__menu__list">
-                                    <a href="#">전산화 인지검사<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">전산화 인지검사<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product2/product2_1.html">CoSAS</a></li>
                                         <li><a href="../../subpage/Products/product2/product2_2.html">TCFT</a></li>
@@ -84,7 +83,7 @@
                                     </ul>
                                 </li>
                                 <li class="sub__menu__list">
-                                    <a href="#">아동인지 훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">아동인지 훈련<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product3/product3_1.html">CoTras-C</a></li>
                                         <li><a href="../../subpage/Products/product3/product3_2.html">CCFT</a></li>
@@ -92,7 +91,7 @@
                                     </ul>
                                 </li>              
                                 <li class="sub__menu__list">
-                                    <a href="#">재활운동장비<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">재활운동장비<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product4/product4_1.html">SP-1100C</a></li>
                                         <li><a href="../../subpage/Products/product4/product4_2.html">SP-1100</a></li>
@@ -104,7 +103,7 @@
                                     </ul>
                                 </li>
                                 <li class="sub__menu__list">
-                                    <a href="#">재활로봇장비<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">재활로봇장비<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product5/product5_1.html">EXO-WALK</a></li>
                                         <li><a href="../../subpage/Products/product5/product5_2.html">R-BoT</a></li>
@@ -112,7 +111,7 @@
                                     </ul>
                                 </li>
                                 <li class="sub__menu__list">
-                                    <a href="#">스마트순환운동<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">스마트순환운동<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product6/product6_1.html">Core Shoulder</a></li>
                                         <li><a href="../../subpage/Products/product6/product6_2.html">Core Trunk</a></li>
@@ -125,7 +124,7 @@
                                     </ul>
                                 </li>
                                 <li class="sub__menu__list">
-                                    <a href="#">VR 재활훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">VR 재활훈련<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product7/product7_1.html">CoTras-VR</a></li>
                                         <li><a href="../../subpage/Products/product7/product7_2.html">CoTras-AR</a></li>
@@ -136,8 +135,8 @@
                         </li>
 
                         <li class="menu__item">
-                            <a href="#" class="menu__item__list">PR CENTER<i class='bx bxs-chevron-down arrow'></i></a>
-                            <ul class="sub__menu">
+                            <a href="#" class="menu__item__list">PR CENTER<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub__menu fs15">
                                 <li class="sub__menu__list"><a href="../../subpage/PrCenter/PrCenter_1.html">뉴스</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/PrCenter/PrCenter_2.html">포토갤러리</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/PrCenter/PrCenter_3.html">유튜브영상</a></li>
@@ -145,8 +144,8 @@
                         </li>
 
                         <li class="menu__item">
-                            <a href="#" class="menu__item__list">CS CENTER<i class='bx bxs-chevron-down arrow'></i></a>
-                            <ul class="sub__menu">
+                            <a href="#" class="menu__item__list">CS CENTER<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub__menu fs15">
                                 <li class="sub__menu__list"><a href="../../subpage/CsCenter/CsCenter_1.html">공지사항</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/CsCenter/CsCenter_2.html">문의게시판</a></li>
                             </ul>
@@ -155,115 +154,166 @@
                     </ul>
                 </nav>
 
-                <div class="lang__menu font14">
-                    <div class="selected__lang flex-row-jr">
+                <!-- searchTop -->
+                <div class="searchTop fRowIcJc">
+                    <div class="searchBox fs18">
+                        <input type="text" placeholder="Search here...">
+                    </div>
+                    <span class="searchIcon">
+                        <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+                        <i class="fa-solid fa-xmark closeBtn"></i>
+                    </span>
+                </div>              
+
+                <!-- lang__menu -->
+                <div class="lang__menu">
+                    <div class="lang__list fRowIcJc">
                         <a href="#">
-                            <img src="https://www.countryflagicons.com/FLAT/32/KR.png">
-                            <span class="material-icons-sharp">arrow_drop_down</span>
+                            <img src="../../image/lang_img/kor.png">
                         </a>
                     </div>
-                    <ul class="dropdown__lang dropdown-menu-right">
-                        <li>
-                            <a href="#" class="dropdown-item">
-                                <img src="https://www.countryflagicons.com/FLAT/32/KR.png">
-                                Korea
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item">
-                                <img src="https://www.countryflagicons.com/FLAT/32/JP.png">
-                                Japan
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item">
-                                <img src="https://www.countryflagicons.com/FLAT/32/US.png">
-                                English
-                            </a>
-                        </li>                            
-                        <li>
-                            <a href="#" class="dropdown-item">
-                                <img src="https://www.countryflagicons.com/FLAT/32/CN.png">
-                                China
-                            </a>
-                        </li>                            
-                    </ul>
                 </div>
 
-                <!----- \\ overlay-navigation \\ ----->
-                <div class="overlay-navigation">
+                <!-- ham__btn -->
+                <div class="ham__btn fRowIcJc">
+                    <div class="hamburger">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>         
+
+                <!-- overlay-navigation -->
+                <div class="overlay-nav fs16">
                     <div role="navigation" class="navigation">
-                        <ul>
-                            <li>
+                        <ul class="menu_1 fRowIcJc">
+                            <li class="menu_1_list fs22">
                                 <a href="#">COMPANY</a>
-                                <a href="../../subpage/About/about_1.html">회사개요</a>
-                                <a href="../../subpage/About/about_2.html">사업영역</a>
-                                <a href="../../subpage/About/about_3.html">연혁</a>
-                                <a href="../../subpage/About/about_4.html">수상 및 인증</a>
+                                <ul class="menu_2 fs16">
+                                    <li><a href="../../subpage/About/about_1.html">회사개요</a></li>
+                                    <li><a href="../../subpage/About/about_2.html">사업영역</a></li>
+                                    <li><a href="../../subpage/About/about_3.html">연혁</a></li>
+                                    <li><a href="../../subpage/About/about_4.html">수상 및 인증</a></li>
+                                </ul>                               
                             </li>                  
-                            <li>
+                            <li class="menu_1_list fs22">
                                 <a href="#">TECHNOLOGY</a>
-                                <a href="../../subpage/Technology/technology_1.html">첨단로봇기술</a>
-                                <a href="../../subpage/Technology/technology_2.html">Ai 인공지능기술</a>
-                                <a href="../../subpage/Technology/technology_3.html">센서기술</a>
-                                <a href="../../subpage/Technology/technology_4.html">무선전송기술</a>
-                                <a href="../../subpage/Technology/technology_5.html">의료기기임상</a>
+                                <ul class="menu_2 fs16">
+                                    <li><a href="../../subpage/Technology/technology_1.html">첨단로봇기술</a></li>
+                                    <li><a href="../../subpage/Technology/technology_2.html">Ai 인공지능기술</a></li>
+                                    <li><a href="../../subpage/Technology/technology_3.html">인지재활 미래기술</a></li>
+                                </ul>
                             </li>
-                            <li>
-                                <a href="../../subpage/Products/product1/product1_1.html">PRODUCT</a>
-                                <a href="../../subpage/Products/product1/product2_1.html">전산화 인지훈련</a>
-                                <a href="../../subpage/Products/product1/product3_1.html">전산화 인지검사</a>
-                                <a href="../../subpage/Products/product1/product4_1.html">아동인지 훈련</a>
-                                <a href="../../subpage/Products/product1/product5_1.html">재활운동장비</a>
-                                <a href="../../subpage/Products/product1/product6_1.html">재활로봇장비</a>
-                                <a href="../../subpage/Products/product1/product7_1.html">스마트순환운동</a>
-                                <a href="../../subpage/Products/product1/product8_1.html">VR 재활훈련</a>                                    
+                            <li class="menu_1_list fs22">
+                                <a href="#">PRODUCT</a>
+                                <ul class="menu_2 fs16">
+                                    <li>
+                                        <a href="#">전산화 인지훈련<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product1/product1_1.html">CoTras</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_2.html">CoTras-D</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_3.html">CoTras-G</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_4.html">CoTras-M</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_5.html">CoTras-P</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_6.html">CoTras-Pro</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_7.html">CoTras-Table</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_8.html">CoTras-UNTACT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">전산화 인지검사<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product2/product2_1.html">CoSAS</a></li>
+                                            <li><a href="../../subpage/Products/product2/product2_2.html">TCFT</a></li>
+                                            <li><a href="../../subpage/Products/product2/product2_3.html">CAB</a></li>
+                                        </ul>
+                                    </li>
+                                    <li >
+                                        <a href="#">아동인지 훈련<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product3/product3_1.html">CoTras-C</a></li>
+                                            <li><a href="../../subpage/Products/product3/product3_2.html">CCFT</a></li>
+                                            <li><a href="../../subpage/Products/product3/product3_3.html">K-DTVP3</a></li>
+                                        </ul>
+                                    </li>              
+                                    <li>
+                                        <a href="#">재활운동장비<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product4/product4_1.html">SP-1100C</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_2.html">SP-1100</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_3.html">SP-1100E</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_4.html">SP-1100P</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_5.html">SP-2100P</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_6.html">SE-1100</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_7.html">MT-2000</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">재활로봇장비<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product5/product5_1.html">EXO-WALK</a></li>
+                                            <li><a href="../../subpage/Products/product5/product5_2.html">R-BoT</a></li>
+                                            <li><a href="../../subpage/Products/product5/product5_3.html">CoBi</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">스마트순환운동<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product6/product6_1.html">Core Shoulder</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_2.html">Core Trunk</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_3.html">Core Lower Back</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_4.html">Core Pelvic</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_5.html">Core Gait</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_6.html">Core Hip</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_7.html">Core Knee</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_8.html">Core Total Body</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">VR 재활훈련<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product7/product7_1.html">CoTras-VR</a></li>
+                                            <li><a href="../../subpage/Products/product7/product7_2.html">CoTras-AR</a></li>
+                                            <li><a href="../../subpage/Products/product7/product7_3.html">Motion Training</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>                              
                             </li>
-                            <li>
+                            <li class="menu_1_list fs22">
                                 <a href="#">PR CENTER</a>
-                                <a href="../../subpage/PrCenter/PrCenter_1.html">뉴스</a>
-                                <a href="../../subpage/PrCenter/PrCenter_2.html">포토갤러리</a>
-                                <a href="../../subpage/PrCenter/PrCenter_3.html">유튜브영상</a>
+                                <ul class="menu_2 fs16">
+                                    <li><a href="../../subpage/PrCenter/PrCenter_1.html">뉴스</a></li>
+                                    <li><a href="../../subpage/PrCenter/PrCenter_2.html">포토갤러리</a></li>
+                                    <li><a href="../../subpage/PrCenter/PrCenter_3.html">유튜브영상</a></li>
+                                </ul>    
                             </li>
-                            <li>
+                            <li class="menu_1_list fs22">
                                 <a href="#">CS CENTER</a>
-                                <a href="../../subpage/CsCenter/CsCenter_1.html">공지사항</a>
-                                <a href="../../subpage/CsCenter/CsCenter_2.html">문의게시판</a>
+                                <ul class="menu_2 fs16">
+                                    <li><a href="../../subpage/CsCenter/CsCenter_1.html">공지사항</a></li>
+                                    <li><a href="../../subpage/CsCenter/CsCenter_2.html">문의게시판</a></li>
+                                </ul>
                             </li>
+                            <li class="menu_1_list fs22"><a href="../../subpage/Contact/contact.html">CONTACT US</a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="open-overlay-btn">
-                    <div class="open-overlay">
-                        <span class="bar-top"></span>
-                        <span class="bar-middle"></span>
-                        <span class="bar-bottom"></span>
-                    </div>
-                </div>                    
+                </div>                   
             </header>
-            <!----- \\ ham 햄버거 메뉴\\ ----->
-            <div class="ham">
-                <span class="bar"></span>
-            </div>
 
-            <!--======================
-            banner 
-            ========================-->
-            <div class ="banner flex-row-ic-jc">
+            <!----- \\ banner \\ ----->
+            <section class="banner">
                 <span class="banner__img"></span>
-                <div class="banner__container">                
-                    <h1 class="font64">ABOUT US</h1>
-                    <p class="font32">회사개요</p>
+                <div class="banner__container fColIcJc">
+                    <p class="fs64">ABOUT US</p>
+                    <p class="fs32">회사소개</p>
                     <a id="scroll-btn" href="#side__menu"></a>
                 </div>
-            </div>
+            </section>
 
-            <!--======================
-            side__menu 
-            ========================-->
+            <!----- \\ side__menu \\ ----->
             <div id="side__menu">
                 <div class="container">
-                    <ul class ="subMn flex-row-ic-jc font16">
+                    <ul class ="subMn fRowIcJc fs16">
                         <li><a href="../../subpage/About/about_1.html">회사개요</a></li>
                         <li><a href="../../subpage/About/about_2.html" class="active">사업영역</a></li>
                         <li><a href="../../subpage/About/about_3.html">연혁</a></li>
@@ -272,208 +322,47 @@
                 </div>
             </div>
 
-            <!--======================
-            main_title
-            ========================-->
+            <!----- \\ main_title \\ ----->
             <div class="main_title">
-                <div class="container flex-column-ic-jc">
-                    <h2 class="font40">사업영역</h2>
-                    <p class="font24">BUSINESS</p>
+                <div class="container fColIcJc fs24">
+                    <h2 class="fs40">회사개요</h2>
+                    <p>OVERVIEW</p>
                 </div>
             </div>
 
-            <!--======================
-            main
-            ========================-->
-            <div class="business">
+            <!----- \\ main \\ ----->
+            <main class="award">
                 <div class="container">
-                    <div class="tabs">
-                        <ul class="nav-tabs flex-row-ic">
-                            <li class="active">
-                                <a  href="#tab1" data-toggle="tab">재활로봇 치료시스템</a>
-                            </li>
-                            <li>
-                                <a href="#tab2" data-toggle="tab">전산화 인지재활치료</a>
-                            </li>
-                            <li>
-                                <a href="#tab3" data-toggle="tab">3D재활운동 프로그램</a>
-                            </li>
-                            <li>
-                                <a href="#tab4" data-toggle="tab">D프린터 시제품 제작</a>
-                            </li>
-                        </ul>
                     
-                        <div class="tab-body tab-content">
-                            <div class="tab-pane active" id="tab1">
-
-                                <h2 class="font28">재활로봇 치료시스템</h2>
-                                <p class="font20">REHABILITATION ROBOT SYSTEM</p>
-
-                                <div class="business__intro flex-row-ic">
-                                    <div class="business__intro_txt flex-column-jc">
-                                        <p class="font24">재활로봇 치료란?</p>
-                                        <p class="font18">재활로봇을 활용한 전문재활의료서비스중 하나로,<br>기존의 재활치료보다 더 많은 양과 높은 강도의 재활 훈련을 제공하여<br>기능향상을 도모합니다.</p>
-                                    </div>
-                                    <div class="business__intro_img">
-                                        <img src="../../image/about_img/about2/business__intro_img1.png" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="business__desc">
-                                    <p class="font24">기립경사 보행재활로봇 R-BoT plus</p>
-                                    <p class="font16">R-BoT Plus는 중추신경계 손상을 입은 환자들을 대상으로 근육의 재건, 관절운동의 회복 등 재활을 위해 사용하는 재활로봇 입니다. 환자가 누워 있거나 기립된 상태를 유지하면서 하지운동을 지속적으로 진행할 수 있도록 하는 장비로서 Active Assistive, Passive, Resistive 기능 지원은물론 속도, 보폭, 경사 등 환자별 맞춤 치료가 가능하여 3D 가상현실 모니터링과 연동되어 사용자로 하여금 몰입을 통한 뇌가소성 재활운동에 도움을 줍니다.</p>
-                                </div>
-
-                                <ul class="business__user_img flex-row-ic-jc flex-wrap">
-                                    <li><img src="../../image/about_img/about2/business1__user_img_1.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_2.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_3.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_4.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_5.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_6.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_7.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_8.png" alt=""></li>
-                                </ul>
-                            </div>
-
-                            <div class="tab-pane" id="tab2">
-                                <h2 class="font28">전산화 인지재활치료</h2>
-                                <p class="font20">COMPUTERIZED COGNITIVE REHABILITATION THERAPY</p>
-
-                                <div class="business__intro flex-row-ic">
-                                    <div class="business__intro_txt flex-column-jc">
-                                        <p class="font24">전산화 인지재활치료란?</p>
-                                        <p class="font18">전산화 인지치료는 인지기능 향상을 목적으로 개발된 다양한 전산화 프로그램을 통해 체계적으로 훈련할 수 있으며, 이를 통해 일상생활에서 발생할 수 있는 문제 상황을 해결할 수 있도록 돕는 치료입니다.</p>
-                                    </div>
-                                    <div class="business__intro_img">
-                                        <img src="../../image/about_img/about2/business__intro_img2.png" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="business__desc">
-                                    <p class="font24">전산화 인지재활치료 시스템기술</p>
-                                    <p class="font16">전산화 인지치료는 인지기능 향상을 목적으로 개발된 다양한 전산화 프로그램을 통해 체계적으로 훈련할 수 있으며,이를 통해 일상생활에서 발생할 수 있는 문제 상황을 해결할 수 있도록 돕는 치료입니다.</p>
-                                </div>
-
-                                <ul class="business__user_img flex-row-ic-jb flex-wrap">
-                                    <li><img src="../../image/about_img/about2/business2__user_img_1.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business2__user_img_2.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business2__user_img_3.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business2__user_img_4.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business2__user_img_5.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business2__user_img_6.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business2__user_img_7.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business2__user_img_8.png" alt=""></li>
-                                </ul>
-                            </div>
-                            <div class="tab-pane" id="tab3">
-                                <h2 class="font28">3D재활운동 프로그램</h2>
-                                <p class="font20">3D REHABILITATION EXERCISE PROGRAM</p>
-
-                                <div class="business__intro flex-row-ic">
-                                    <div class="business__intro_txt flex-column-jc">
-                                        <p class="font24">3D재활운동 프로그램이란?</p>
-                                        <p class="font18">남녀노소 나이게 상관없이 누구나 즐기며 게임형 신체 재활훈련이 가능한 3D재활운동 시스템입니다.</p>
-                                    </div>
-                                    <div class="business__intro_img">
-                                        <img src="../../image/about_img/about2/business__intro_img1.png" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="business__desc">
-                                    <p class="font24">게임 훈련 콘텐츠를 활용한 3D재활운동 시스템</p>
-                                    <p class="font16">게임 훈련 콘텐츠를 활용하여 재활운동이 필요한 노약자, 휠체어 사용자, 뇌졸중(중풍)에 도움을 주며, 가상의 상황과 재활운동을 서로 실시간으로 연동하여 누군든지 부담감 없이 전신 운동이 가능합니다.</p>
-                                </div>
-
-                                <ul class="business__user_img flex-row-ic-jc flex-wrap">
-                                    <li>3D SP-1100C</li>
-                                    <li><img src="../../image/about_img/about2/business3__user_img_1.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business3__user_img_2.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business3__user_img_3.png" alt=""></li>
-                                    <li>3D Motion Training</li>
-                                    <li><img src="../../image/about_img/about2/business3__user_img_4.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business3__user_img_5.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business3__user_img_6.png" alt=""></li>
-                                    <li>3D Smart Re-Walk</li>
-                                    <li><img src="../../image/about_img/about2/business3__user_img_7.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business3__user_img_8.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business3__user_img_9.png" alt=""></li>
-                                </ul>
-                            </div>
-                            <div class="tab-pane" id="tab4">
-                                <h2 class="font28">3D프린터 시제품 제작</h2>
-                                <p class="font20">3D PRINTER PROTOTYPING</p>
-
-                                <div class="business__intro flex-row-ic">
-                                    <div class="business__intro_txt flex-column-jc">
-                                        <p class="font24">시제품제작이란?</p>
-                                        <p class="font18">시제품이란, 사전적 의미로 시험삼아 만들어 본 제품을 뜻하는 말로 제품개발 과정에서 양산 전 제품의 디자인 및 설계상에 수정 및 보완 사항은 없는지 확인하거나 제품의 기능성 및 성능 검증에 사용됩니다.</p>
-                                    </div>
-                                    <div class="business__intro_img">
-                                        <img src="../../image/about_img/about2/business__intro_img1.png" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="business__desc">
-                                    <p class="font24">3D프린팅이란?</p>
-                                    <p class="font16">쾌속조형기술(Rapid Prototype), 적층가공(Additive Manufacturing) 등 다양한 명칭으로 불리고 있으며 국내에서는 3D프린터로 많이 알려진 3D프린팅 기술은 열가소성 수지, 열경 화성 수지, 분말 등 다양한 재료를 활용하여 얇은 두께(또는 Layer)로 한 층씩 차례대로 쌓아올리면서 3차원의 입체 형상을 제작합니다.</p>
-                                </div>
-
-                                <ul class="business__user_img flex-row-ic-jc flex-wrap">
-                                    <li><img src="../../image/about_img/about2/business1__user_img_1.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_2.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_3.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_4.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_5.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_6.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_7.png" alt=""></li>
-                                    <li><img src="../../image/about_img/about2/business1__user_img_8.png" alt=""></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </div>
+            </main>
 
-            <!--======================
-            footer
-            ========================-->
+            <!----- \\ footer \\ ----->
             <footer>
-                <div class="container flex-row flex-wrap font14">
-                    <div class="footer-policy flex-row-ic">
-                        <a href=""><strong class="font16">개인정보처리방침</strong></a>
+                <div class="container fRow fWrap fs14">
+                    <div class="footer-policy fRowIc">
+                        <a href=""><strong class="fs16">개인정보처리방침</strong></a>
                     </div>
-                    <div class="footer-social">
-                        <ul>
-                            <li><img src="../../image/social/kakao1.png"></li>
-                            <li><img src="../../image/social/cafe1.png"></li>
-                            <li><img src="../../image/social/blog1.png"></li>
-                            <li><img src="../../image/social/yootube1.png"></li>
-                        </ul>
-                    </div>
-                    <div class="footer-info">
-                        <p><span>대표이사 : ㅇㅇㅇ</span><span>사업자번호 : 123-456-7890</span></p>
-                        <p>주소 : 서울시 금천구 가산디지털2로 98 롯데IT캐슬1동 1107~1108호</p>
-                        <p>FAX : 02-862-2034</p>
-                        <p>Mail : mail@info.com</p>
-                    </div>
-                    <div class="footer-tell">
-                        <h5>(주)알피오<span class="font20">대표전화</span></h5>
-                        <p class="font24"><span>TEL : </span> 02-862-2033</p>
-                    </div>
+                    <ul class="footer-social">
+                        <li><a href="https://pf.kakao.com/_gaxjrs/chat"><img src="../../image/social/kakao.svg" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/rpioblog/"><img src="../../image/social/instagram.svg" alt=""></a></li>
+                        <li><a href="https://blog.naver.com/rpioblog"><img src="../../image/social/blog.svg" alt=""></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC4PAW86TXskdffGv0STGz-Q/videos?view_as=subscriber"><img src="../../image/social/yootube.svg" alt=""></a></li>
+                    </ul>
+                    <ul class="footer-info">
+                        <li><span>대표이사 : ㅇㅇㅇ</span><span>사업자번호 : 123-456-7890</span></li>
+                        <li><span>FAX : 02-862-2034</span><span>Mail : mail@info.com</span></li>
+                        <li>주소 : 서울시 금천구 가산디지털2로 98 롯데IT캐슬1동 1107~1108호</li>
+                    </ul>
+                    <ul class="footer-tell">
+                        <li><h5>(주)알피오<span class="fs20">대표전화</span></h5></li>
+                        <li><p class="fs24"><span class="fs20">TEL : </span> 02-862-2033</p></li>
+                    </ul>
                 </div>
             </footer>
-        </div>
 
-        <!--====================
-        script 
-        ========================--> 
-        <!--bootstrap-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
-        <!--JQuery-->
-        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" charset="utf-8"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>        
+        </div>
+        <!----- \\ script \\ ----->
         <script src="../../js/nav.js"></script>
         <script src="../../js/common.js"></script>
     </body>

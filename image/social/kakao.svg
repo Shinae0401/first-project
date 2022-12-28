@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="그룹_286" data-name="그룹 286" transform="translate(-26.016 -994.016)">
+    <g id="그룹_251" data-name="그룹 251" transform="translate(37 997)">
+      <g id="그룹_228" data-name="그룹 228" transform="translate(-11 -3)">
+        <g id="그룹_227" data-name="그룹 227" transform="translate(0)">
+          <circle id="타원_39" data-name="타원 39" cx="50" cy="50" r="50" transform="translate(0.016 0.016)" fill="none"/>
+          <path id="합치기_3" data-name="합치기 3" d="M9.3,46.429l2.886-10.244C4.878,32.761,0,26.574,0,19.512,0,8.735,11.356,0,25.366,0S50.731,8.735,50.731,19.512,39.374,39.024,25.366,39.024a33.009,33.009,0,0,1-4.445-.3L9.762,46.754a.3.3,0,0,1-.174.058A.3.3,0,0,1,9.3,46.429Z" transform="translate(24.585 27.058)" fill="#3e2723"/>
+          <text id="TALK" transform="translate(31.016 51.016)" fill="#ffeb3b" font-size="14" font-family="ArialRoundedMTBold, Arial Rounded MT" letter-spacing="-0.054em"><tspan x="0" y="0">TALK</tspan></text>
+        </g>
+        <g id="그룹_231" data-name="그룹 231" transform="translate(0)">
+          <circle id="타원_39-2" data-name="타원 39" cx="50" cy="50" r="50" transform="translate(0.016 0.016)" fill="none"/>
+          <path id="합치기_3-2" data-name="합치기 3" d="M9.3,46.429l2.886-10.244C4.878,32.761,0,26.574,0,19.512,0,8.735,11.356,0,25.366,0S50.731,8.735,50.731,19.512,39.374,39.024,25.366,39.024a33.009,33.009,0,0,1-4.445-.3L9.762,46.754a.3.3,0,0,1-.174.058A.3.3,0,0,1,9.3,46.429Z" transform="translate(24.585 27.058)" fill="#fff"/>
+          <text id="TALK-2" data-name="TALK" transform="translate(32.016 54.016)" font-size="14" font-family="ArialRoundedMTBold, Arial Rounded MT" letter-spacing="-0.054em"><tspan x="0" y="0">TALK</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -9,38 +8,42 @@
     
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-        <title>뉴스</title>
+        <title>Contact Us</title>
 
-        <!-- Boxicons CDN Link -->
-        <link rel="stylesheet" href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" charset="utf-8"></script>
+
+        <!-- fontAwesome CDN -->
+        <script src="https://kit.fontawesome.com/c2e96161e0.js" crossorigin="anonymous"></script>
         <!--Material Icons CDN-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
-        <!--swiper-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-        <!--CSS-->
-        <link rel="stylesheet" href="../../css/main.css">
-        <link rel="stylesheet" href="../../css/Contact.css">
-        <link rel="stylesheet" href="../../css/responsive.css">    
+        <link rel="stylesheet" href="../../css/contact.css">
     </head>
     <body>
-        <div id="wrap">
-            <!--======================
-            header 
-            ========================-->
-            <header>
-                <!----- \\ logo \\ ----->
-                <h1 class="logo">
-                    <a href="../../index.html"><img src="../../image/rio_logo.png" alt="로고"></a>
+        <div class="wrap">
+            <!----- \\ go-top(맨위로가기) \\ ----->
+            <div id="go-top" class="fRowIcJc">
+                <span id="go-top-value" class="fs20">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </span>
+            </div>
+            <!----- \\ right__line \\ ----->
+            <div class="right__line"></div>
+            
+            <!----- \\ header \\ ----->
+            <header class="fRowIc fs16">
+                <!-- logo -->
+                <h1 class="logo fRowIcJc">
+                    <a href="../../index.html" class="fRowIc"><img src="../../image/rio_logo.png" alt="로고"></a>
                 </h1>
 
-                <!----- \\ main__nav \\ ----->
+                <!-- main__nav -->
                 <nav class="main__nav">
-                    <!-- links -->
-                    <ul class="gnb">
+                    <ul class="gnb fRowIcJb">
                         <li class="menu__item">
-                            <a href="#" class="menu__item__list">COMPANY<i class='bx bxs-chevron-down arrow'></i></a>
-                            <ul class="sub__menu">
+                            <a href="#" class="menu__item__list">COMPANY<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub__menu fs15">
                                 <li class="sub__menu__list"><a href="../../subpage/About/about_1.html">회사개요</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/About/about_2.html">사업영역</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/About/about_3.html">연혁</a></li>
@@ -48,20 +51,18 @@
                             </ul>
                         </li>                  
                         <li class="menu__item">
-                            <a href="#" class="menu__item__list">TECHNOLOGY<i class='bx bxs-chevron-down arrow'></i></a>
-                            <ul class="sub__menu">
+                            <a href="#" class="menu__item__list">TECHNOLOGY<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub__menu fs15">
                                 <li class="sub__menu__list"><a href="../../subpage/Technology/technology_1.html">첨단로봇기술</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/Technology/technology_2.html">Ai 인공지능기술</a></li>
-                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_3.html">센서기술</a></li>
-                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_4.html">무선전송기술</a></li>
-                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_5.html">의료기기임상</a></li>
+                                <li class="sub__menu__list"><a href="../../subpage/Technology/technology_3.html">인지재활 미래기술</a></li>
                             </ul>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__item__list">PRODUCT<i class='bx bxs-chevron-down arrow'></i></a>
-                            <ul class="sub__menu">
+                            <a href="#" class="menu__item__list">PRODUCT<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub__menu fs15">
                                 <li class="sub__menu__list">
-                                    <a href="#">전산화 인지훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">전산화 인지훈련<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product1/product1_1.html">CoTras</a></li>
                                         <li><a href="../../subpage/Products/product1/product1_2.html">CoTras-D</a></li>
@@ -74,7 +75,7 @@
                                     </ul>
                                 </li>
                                 <li class="sub__menu__list">
-                                    <a href="#">전산화 인지검사<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">전산화 인지검사<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product2/product2_1.html">CoSAS</a></li>
                                         <li><a href="../../subpage/Products/product2/product2_2.html">TCFT</a></li>
@@ -82,7 +83,7 @@
                                     </ul>
                                 </li>
                                 <li class="sub__menu__list">
-                                    <a href="#">아동인지 훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">아동인지 훈련<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product3/product3_1.html">CoTras-C</a></li>
                                         <li><a href="../../subpage/Products/product3/product3_2.html">CCFT</a></li>
@@ -90,7 +91,7 @@
                                     </ul>
                                 </li>              
                                 <li class="sub__menu__list">
-                                    <a href="#">재활운동장비<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">재활운동장비<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product4/product4_1.html">SP-1100C</a></li>
                                         <li><a href="../../subpage/Products/product4/product4_2.html">SP-1100</a></li>
@@ -102,7 +103,7 @@
                                     </ul>
                                 </li>
                                 <li class="sub__menu__list">
-                                    <a href="#">재활로봇장비<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">재활로봇장비<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product5/product5_1.html">EXO-WALK</a></li>
                                         <li><a href="../../subpage/Products/product5/product5_2.html">R-BoT</a></li>
@@ -110,7 +111,7 @@
                                     </ul>
                                 </li>
                                 <li class="sub__menu__list">
-                                    <a href="#">스마트순환운동<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">스마트순환운동<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product6/product6_1.html">Core Shoulder</a></li>
                                         <li><a href="../../subpage/Products/product6/product6_2.html">Core Trunk</a></li>
@@ -123,7 +124,7 @@
                                     </ul>
                                 </li>
                                 <li class="sub__menu__list">
-                                    <a href="#">VR 재활훈련<i class='bx bxs-chevron-right more-arrow'></i></a>
+                                    <a href="#">VR 재활훈련<i class="fa-solid fa-angle-right more-arrow"></i></a>
                                     <ul class="more__sub__menu">
                                         <li><a href="../../subpage/Products/product7/product7_1.html">CoTras-VR</a></li>
                                         <li><a href="../../subpage/Products/product7/product7_2.html">CoTras-AR</a></li>
@@ -134,8 +135,8 @@
                         </li>
 
                         <li class="menu__item">
-                            <a href="#" class="menu__item__list">PR CENTER<i class='bx bxs-chevron-down arrow'></i></a>
-                            <ul class="sub__menu">
+                            <a href="#" class="menu__item__list">PR CENTER<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub__menu fs15">
                                 <li class="sub__menu__list"><a href="../../subpage/PrCenter/PrCenter_1.html">뉴스</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/PrCenter/PrCenter_2.html">포토갤러리</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/PrCenter/PrCenter_3.html">유튜브영상</a></li>
@@ -143,8 +144,8 @@
                         </li>
 
                         <li class="menu__item">
-                            <a href="#" class="menu__item__list">CS CENTER<i class='bx bxs-chevron-down arrow'></i></a>
-                            <ul class="sub__menu">
+                            <a href="#" class="menu__item__list">CS CENTER<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub__menu fs15">
                                 <li class="sub__menu__list"><a href="../../subpage/CsCenter/CsCenter_1.html">공지사항</a></li>
                                 <li class="sub__menu__list"><a href="../../subpage/CsCenter/CsCenter_2.html">문의게시판</a></li>
                             </ul>
@@ -153,179 +154,242 @@
                     </ul>
                 </nav>
 
-                <div class="lang__menu font14">
-                    <div class="selected__lang flex-row-jr">
+                <!-- searchTop -->
+                <div class="searchTop fRowIcJc">                    
+                    <div class="searchBox fs18">
+                        <input type="text" placeholder="Search here...">
+                    </div>
+                    <span class="searchIcon">
+                        <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+                        <i class="fa-solid fa-xmark closeBtn"></i>
+                    </span>
+                </div>              
+
+                <!-- lang__menu -->
+                <div class="lang__menu">
+                    <div class="lang__list fRowIcJc">
                         <a href="#">
-                            <img src="https://www.countryflagicons.com/FLAT/32/KR.png">
-                            <span class="material-icons-sharp">arrow_drop_down</span>
+                            <img src="../../image/lang_img/kor.png">
                         </a>
                     </div>
-                    <ul class="dropdown__lang dropdown-menu-right">
-                        <li>
-                            <a href="#" class="dropdown-item">
-                                <img src="https://www.countryflagicons.com/FLAT/32/KR.png">
-                                Korea
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item">
-                                <img src="https://www.countryflagicons.com/FLAT/32/JP.png">
-                                Japan
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item">
-                                <img src="https://www.countryflagicons.com/FLAT/32/US.png">
-                                English
-                            </a>
-                        </li>                            
-                        <li>
-                            <a href="#" class="dropdown-item">
-                                <img src="https://www.countryflagicons.com/FLAT/32/CN.png">
-                                China
-                            </a>
-                        </li>                            
-                    </ul>
                 </div>
 
-                <!----- \\ overlay-navigation \\ ----->
-                <div class="overlay-navigation">
+                <!-- ham__btn -->
+                <div class="ham__btn fRowIcJc">
+                    <div class="hamburger">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>         
+
+                <!-- overlay-navigation -->
+                <div class="overlay-nav fs16">
                     <div role="navigation" class="navigation">
-                        <ul>
-                            <li>
+                        <ul class="menu_1 fRowIcJc">
+                            <li class="menu_1_list fs22">
                                 <a href="#">COMPANY</a>
-                                <a href="../../subpage/About/about_1.html">회사개요</a>
-                                <a href="../../subpage/About/about_2.html">사업영역</a>
-                                <a href="../../subpage/About/about_3.html">연혁</a>
-                                <a href="../../subpage/About/about_4.html">수상 및 인증</a>
+                                <ul class="menu_2 fs16">
+                                    <li><a href="../../subpage/About/about_1.html">회사개요</a></li>
+                                    <li><a href="../../subpage/About/about_2.html">사업영역</a></li>
+                                    <li><a href="../../subpage/About/about_3.html">연혁</a></li>
+                                    <li><a href="../../subpage/About/about_4.html">수상 및 인증</a></li>
+                                </ul>                               
                             </li>                  
-                            <li>
+                            <li class="menu_1_list fs22">
                                 <a href="#">TECHNOLOGY</a>
-                                <a href="../../subpage/Technology/technology_1.html">첨단로봇기술</a>
-                                <a href="../../subpage/Technology/technology_2.html">Ai 인공지능기술</a>
-                                <a href="../../subpage/Technology/technology_3.html">센서기술</a>
-                                <a href="../../subpage/Technology/technology_4.html">무선전송기술</a>
-                                <a href="../../subpage/Technology/technology_5.html">의료기기임상</a>
+                                <ul class="menu_2 fs16">
+                                    <li><a href="../../subpage/Technology/technology_1.html">첨단로봇기술</a></li>
+                                    <li><a href="../../subpage/Technology/technology_2.html">Ai 인공지능기술</a></li>
+                                    <li><a href="../../subpage/Technology/technology_3.html">인지재활 미래기술</a></li>
+                                </ul>
                             </li>
-                            <li>
-                                <a href="../../subpage/Products/product1/product1_1.html">PRODUCT</a>
-                                <a href="../../subpage/Products/product1/product2_1.html">전산화 인지훈련</a>
-                                <a href="../../subpage/Products/product1/product3_1.html">전산화 인지검사</a>
-                                <a href="../../subpage/Products/product1/product4_1.html">아동인지 훈련</a>
-                                <a href="../../subpage/Products/product1/product5_1.html">재활운동장비</a>
-                                <a href="../../subpage/Products/product1/product6_1.html">재활로봇장비</a>
-                                <a href="../../subpage/Products/product1/product7_1.html">스마트순환운동</a>
-                                <a href="../../subpage/Products/product1/product8_1.html">VR 재활훈련</a>                                    
+                            <li class="menu_1_list fs22">
+                                <a href="#">PRODUCT</a>
+                                <ul class="menu_2 fs16">
+                                    <li>
+                                        <a href="#">전산화 인지훈련<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product1/product1_1.html">CoTras</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_2.html">CoTras-D</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_3.html">CoTras-G</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_4.html">CoTras-M</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_5.html">CoTras-P</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_6.html">CoTras-Pro</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_7.html">CoTras-Table</a></li>
+                                            <li><a href="../../subpage/Products/product1/product1_8.html">CoTras-UNTACT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">전산화 인지검사<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product2/product2_1.html">CoSAS</a></li>
+                                            <li><a href="../../subpage/Products/product2/product2_2.html">TCFT</a></li>
+                                            <li><a href="../../subpage/Products/product2/product2_3.html">CAB</a></li>
+                                        </ul>
+                                    </li>
+                                    <li >
+                                        <a href="#">아동인지 훈련<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product3/product3_1.html">CoTras-C</a></li>
+                                            <li><a href="../../subpage/Products/product3/product3_2.html">CCFT</a></li>
+                                            <li><a href="../../subpage/Products/product3/product3_3.html">K-DTVP3</a></li>
+                                        </ul>
+                                    </li>              
+                                    <li>
+                                        <a href="#">재활운동장비<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product4/product4_1.html">SP-1100C</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_2.html">SP-1100</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_3.html">SP-1100E</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_4.html">SP-1100P</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_5.html">SP-2100P</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_6.html">SE-1100</a></li>
+                                            <li><a href="../../subpage/Products/product4/product4_7.html">MT-2000</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">재활로봇장비<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product5/product5_1.html">EXO-WALK</a></li>
+                                            <li><a href="../../subpage/Products/product5/product5_2.html">R-BoT</a></li>
+                                            <li><a href="../../subpage/Products/product5/product5_3.html">CoBi</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">스마트순환운동<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product6/product6_1.html">Core Shoulder</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_2.html">Core Trunk</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_3.html">Core Lower Back</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_4.html">Core Pelvic</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_5.html">Core Gait</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_6.html">Core Hip</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_7.html">Core Knee</a></li>
+                                            <li><a href="../../subpage/Products/product6/product6_8.html">Core Total Body</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">VR 재활훈련<span class="material-icons-sharp arrow1 fs14">add</span></a>
+                                        <ul class="menu_3">
+                                            <li><a href="../../subpage/Products/product7/product7_1.html">CoTras-VR</a></li>
+                                            <li><a href="../../subpage/Products/product7/product7_2.html">CoTras-AR</a></li>
+                                            <li><a href="../../subpage/Products/product7/product7_3.html">Motion Training</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>                              
                             </li>
-                            <li>
+                            <li class="menu_1_list fs22">
                                 <a href="#">PR CENTER</a>
-                                <a href="../../subpage/PrCenter/PrCenter_1.html">뉴스</a>
-                                <a href="../../subpage/PrCenter/PrCenter_2.html">포토갤러리</a>
-                                <a href="../../subpage/PrCenter/PrCenter_3.html">유튜브영상</a>
+                                <ul class="menu_2 fs16">
+                                    <li><a href="../../subpage/PrCenter/PrCenter_1.html">뉴스</a></li>
+                                    <li><a href="../../subpage/PrCenter/PrCenter_2.html">포토갤러리</a></li>
+                                    <li><a href="../../subpage/PrCenter/PrCenter_3.html">유튜브영상</a></li>
+                                </ul>    
                             </li>
-                            <li>
+                            <li class="menu_1_list fs22">
                                 <a href="#">CS CENTER</a>
-                                <a href="../../subpage/CsCenter/CsCenter_1.html">공지사항</a>
-                                <a href="../../subpage/CsCenter/CsCenter_2.html">문의게시판</a>
+                                <ul class="menu_2 fs16">
+                                    <li><a href="../../subpage/CsCenter/CsCenter_1.html">공지사항</a></li>
+                                    <li><a href="../../subpage/CsCenter/CsCenter_2.html">문의게시판</a></li>
+                                </ul>
                             </li>
+                            <li class="menu_1_list fs22"><a href="../../subpage/Contact/contact.html">CONTACT US</a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="open-overlay-btn">
-                    <div class="open-overlay">
-                        <span class="bar-top"></span>
-                        <span class="bar-middle"></span>
-                        <span class="bar-bottom"></span>
-                    </div>
-                </div>                    
+                </div>                   
             </header>
-            <!----- \\ ham 햄버거 메뉴\\ ----->
-            <div class="ham">
-                <span class="bar"></span>
-            </div>
 
-            <!--====================
-            banner 
-            ========================-->
-            <div class ="banner flex-row-ic-jc">
+            <!----- \\ banner \\ ----->
+            <section class="banner">
                 <span class="banner__img"></span>
-                <div class="banner__container">
-                    <h1 class="font64">CONTACT</h1>
-                    <p class="font32">고객문의</p>
-                    <p class="sub_txt font18">알피오에 궁금한 사항이 있으시면 문의주세요.</p>
+                <div class="banner__container fColIcJc">
+                    <p class="fs64">CONTACT</p>
+                    <p class="fs32">고객문의</p>
                     <a id="scroll-btn" href="#side__menu"></a>
                 </div>
+            </section>
+
+            <!----- \\ main_title \\ ----->
+            <div class="main_title">
+                <div class="container fColIcJc fs20">
+                    <p class="sub_txt">알피오에 궁금한 사항이 있으시면 문의주세요.</p>
+                </div>
             </div>
 
-            <!--====================
-            contact 
-            ========================-->
-            <main id="side__menu" class="contactUs">
-                <div class="container flex-column-ic-jc font16">
+            <!----- \\ contactUs \\ ----->
+            <main class="contactUs" id="side__menu">
+                <div class="container fColIc fs16">
                     <form id="fAction" name="fAction" method="post" enctype="multipart/form-data">
-                        <!----- \\ input-check \\ ----->
-                        <fieldset class="input-check flex-row-ic-jb">
-                            <div class="check_item flex-column-ic-jc">
-                                <div class="img"></div>
-                                <span class="flex-column-ic-jc">
-                                    <input type="radio" name="type" value="1" checked="" id="radio1">
-                                    <label for="radio1">자료&#183;시연<br>신청</label>
-                                </span>
-                            </div>
-                            <div class="check_item flex-column-ic-jc">
-                                <div class="img"></div>                                       
-                                <span class="flex-column-ic-jc">
-                                    <input type="radio" name="type" value="2" id="radio2">
-                                    <label for="radio2">사업<br>제휴</label>
-                                </span>
-                            </div>
-                            <div class="check_item flex-column-ic-jc">
-                                <div class="img"></div>                                       
-                                <span class="flex-column-ic-jc">
-                                    <input type="radio" name="type" value="3" id="radio3">
-                                    <label for="radio3">구매<br>문의</label>
-                                </span>
-                            </div>
-                            <div class="check_item flex-column-ic-jc">
-                                <div class="img"></div>
-                                <span class="flex-column-ic-jc">
-                                    <input type="radio" name="type" value="4" id="radio4">
-                                    <label for="radio4">상품<br>문의</label>
-                                </span>
-                            </div>
-                            <div class="check_item flex-column-ic-jc">
-                                <div class="img"></div>
-                                <span class="flex-column-ic-jc">
-                                    <input type="radio" name="type" value="5" id="radio5">
-                                    <label for="radio5">기술<br>문의</label>
-                                </span>
-                            </div>
-                            <div class="check_item flex-column-ic-jc">
-                                <div class="img"></div>
-                                <span class="flex-column-ic-jc">
-                                    <input type="radio" name="type" value="6" id="radio6">
-                                    <label for="radio6">기타<br>문의</label>
-                                </span>
-                            </div>
-                            
-                        </fieldset>
-
-					    <input type="hidden" name="inquiry_type" id="inquiry_type" value="11201">
-
-	                    <ul class="form">
+	                    <ul class="contact__form">
+                            <li class="check__box">
+                                <label for="name">유형<sup>*</sup></label>
+                                <ul class="check__item fRowIcJl">
+                                    <li>
+                                        <div class="check__item-img">
+                                            <img src="../../image/contact_img/contact_1.png" alt="">
+                                        </div>
+                                        <span class="fRowIcJc">
+                                            <input type="radio" name="type" value="1" id="radio1">
+                                            <label for="radio1">제품문의</label>
+                                        </span>
+                                    </li>                                    
+                                    <li>
+                                        <div class="check__item-img">
+                                            <img src="../../image/contact_img/contact_3.png" alt="">
+                                        </div>
+                                        <span class="fRowIcJc">
+                                            <input type="radio" name="type" value="3" id="radio3">
+                                            <label for="radio3">구매문의</label>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <div class="check__item-img">
+                                            <img src="../../image/contact_img/contact_5.png" alt="">
+                                        </div>
+                                        <span class="fRowIcJc">
+                                            <input type="radio" name="type" value="5" id="radio5">
+                                            <label for="radio5">기술문의</label>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <div class="check__item-img">
+                                            <img src="../../image/contact_img/contact_4.png" alt="">
+                                        </div>
+                                        <span class="fRowIcJc">
+                                            <input type="radio" name="type" value="4" id="radio4">
+                                            <label for="radio4">자료신청</label>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <div class="check__item-img">
+                                            <img src="../../image/contact_img/contact_2.png" alt="">
+                                        </div>
+                                        <span class="fRowIcJc">
+                                            <input type="radio" name="type" value="2" id="radio2">
+                                            <label for="radio2">사업제휴</label>
+                                        </span>
+                                    </li>                                    
+                                    <li>
+                                        <div class="check__item-img">
+                                            <img src="../../image/contact_img/contact_6.png" alt="">
+                                        </div>
+                                        <span class="fRowIcJc">
+                                            <input type="radio" name="type" value="6" id="radio6">
+                                            <label for="radio6">기타문의</label>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>
                             <li class="name__box">
-                                <label for="name">
-                                    이름<sup>*</sup>
-                                </label>
-                                <span class="inputbox">
+                                <label for="name">이름<sup>*</sup></label>
+                                <span class="inputBox">
                                     <input type="text" id="name" class="name text__box" name="name">
                                 </span>
                             </li>
                             <li class="phone-number">
-                                <label for="phone-num">
-                                    연락처<sup>*</sup>
-                                </label>
-                                <span class="inputbox">
+                                <label for="phone-num">연락처<sup>*</sup></label>
+                                <span class="inputBox">
                                     <select name="phone1" id="phone1">                                        
                                         <option value="010" selected="">010</option>
 										<option value="011">011</option>
@@ -334,19 +398,17 @@
 										<option value="018">018</option>
 										<option value="019">019</option>
                                     </select>
-                                    <span></span>
+                                    <span><i class="fa-solid fa-minus"></i></span>
                                     <input type="text" id="phone2" class="text__box" name="phone2" maxlength="4">
-                                    <span></span>
+                                    <span><i class="fa-solid fa-minus"></i></span>
                                     <input type="text" id="phone3" class="text__box" name="phone3" maxlength="4">
                                 </span>
                             </li>
                             <li class="email__box">
-                                <label for="email">
-                                    이메일<sup>*</sup>
-                                </label>
-                                <span class="inputbox email">
+                                <label for="email">이메일<sup>*</sup></label>
+                                <span class="inputBox email">
                                     <input type="text" id="email1" class="text__box" name="email1" maxlength="20" isplaceholderinited="true">
-                                    <span>@</span>
+                                    <span><i class="fa-solid fa-at"></i></span>
                                     <input type="text" id="email2" class="text__box" name="email2" maxlength="20" isplaceholderinited="true">
                                     <select id="email3" name="email3" class="email_select" onchange="$('#email2').val($(this).val())">
                                         <option value="" selected="">직접입력</option>
@@ -359,27 +421,21 @@
                                 </span>
                             </li>
                             <li class="title__box">
-                                <label for="text-title">
-                                    제목<sup>*</sup>
-                                </label>
-                                <span class="inputbox">
+                                <label for="text-title">제목<sup>*</sup></label>
+                                <span class="inputBox">
                                     <input type="text" id="subject" class="text-title text__box" name="subject">
                                 </span>
                             </li>
                             <li class="textarea__box">
-                                <label for="text" class="label-text-top">
-                                    내용<sup>*</sup>
-                                </label>
-                                <span class="inputbox">
+                                <label for="text" class="label-text-top">내용<sup>*</sup></label>
+                                <span class="inputBox">
                                     <textarea name="contents" id="contents" placeholder="요청사항을 입력해주세요"></textarea>
                                 </span>
                             </li>
                             <li class="attach-files">
-                                <label for="attach">
-                                    첨부파일
-                                </label>
-                                <div class="filebox__box">
-                                    <span class="filebox">
+                                <label for="attach">첨부파일</label>
+                                <div class="fileBox__box">
+                                    <span class="fileBox">
                                         <input class="upload-name" disabled="disabled" placeholder="첨부파일은 10MB 이하로 첨부 가능합니다">
 
                                         <label for="filename" class="file">파일찾기</label>
@@ -393,18 +449,18 @@
                                     이용에 대한 동의
                                 </label>
                                 <div class="privacy">
-                                    <h3>1. 개인정보의 수집, 이용목적</h3>
+                                    <h6>1. 개인정보의 수집, 이용목적</h6>
                                     <p>지씨셀은 다음의 목적을 위해 개인정보를 수집 · 이용합니다. 수집된 개인정보는 정해진 목적 이외의 용도로는 이용되지 않으며, 수집 목적 등이 변경될 경우에는 회원가입자에게 알리고 동의를 받을 예정입니다.</p>
                                     <p>
                                         (1) 고객문의, 본인확인<br>
                                         (2) 민원사항 확인, 사실확인을 위한 연락, 처리결과 통보
                                     </p>
                                     
-                                    <h3>2. 수집하는 개인정보의 항목</h3>
+                                    <h6>2. 수집하는 개인정보의 항목</h6>
                                     <p>지씨셀은 필요한 최소한의 개인정보를 수집하며, 이에 대한 동의를 얻고 있습니다.  수집하는 개인정보 항목은 다음과 같습니다.</p>
                                     <p>- 이름, 연락처, 이메일</p>
 
-                                    <h3>3. 개인정보의 처리 및 보유 기간</h3>
+                                    <h6>3. 개인정보의 처리 및 보유 기간</h6>
                                     <p>
                                         홈페이지 이용자의 개인정보는 원칙적으로 개인정보의 처리 목적이 달성되거나 해당 서비스가 폐지되면 지체 없이 파기합니다.<br>
                                         각각의 개인정보 처리 및 보유기간은 다음과 같습니다.
@@ -415,7 +471,7 @@
                                         (3) 관계 법령 위반에 따른 수사 · 조사 등이 진행중인 경우에는 해당 수사 · 조사 종료 시 까지
                                     </p>
                                     
-                                    <h3>4. 동의를 거부할 수 없으며, 동의 거부시 상담서비스가 제공되지 않습니다</h3>
+                                    <h6>4. 동의를 거부할 수 없으며, 동의 거부시 상담서비스가 제공되지 않습니다</h6>
                                 </div>
                             </li>
                             <div class="agree-check flex-row-ic-jr">
@@ -432,44 +488,32 @@
                 </div>
             </main>
 
-            <!--======================
-            footer
-            ========================-->
+            <!----- \\ footer \\ ----->
             <footer>
-                <div class="container flex-row flex-wrap font14">
-                    <div class="footer-policy flex-row-ic">
-                        <a href=""><strong class="font16">개인정보처리방침</strong></a>
+                <div class="container fRow fWrap fs14">
+                    <div class="footer-policy fRowIc">
+                        <a href=""><strong class="fs16">개인정보처리방침</strong></a>
                     </div>
-                    <div class="footer-social">
-                        <ul>
-                            <li><img src="../../image/social/kakao1.png"></li>
-                            <li><img src="../../image/social/cafe1.png"></li>
-                            <li><img src="../../image/social/blog1.png"></li>
-                            <li><img src="../../image/social/yootube1.png"></li>
-                        </ul>
-                    </div>
-                    <div class="footer-info">
-                        <p><span>대표이사 : ㅇㅇㅇ</span><span>사업자번호 : 123-456-7890</span></p>
-                        <p>주소 : 서울시 금천구 가산디지털2로 98 롯데IT캐슬1동 1107~1108호</p>
-                        <p>FAX : 02-862-2034</p>
-                        <p>Mail : mail@info.com</p>
-                    </div>
-                    <div class="footer-tell">
-                        <h5>(주)알피오<span class="font20">대표전화</span></h5>
-                        <p class="font24"><span>TEL : </span> 02-862-2033</p>
-                    </div>
+                    <ul class="footer-social">
+                        <li><a href="https://pf.kakao.com/_gaxjrs/chat"><img src="../../image/social/kakao.svg" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/rpioblog/"><img src="../../image/social/instagram.svg" alt=""></a></li>
+                        <li><a href="https://blog.naver.com/rpioblog"><img src="../../image/social/blog.svg" alt=""></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC4PAW86TXskdffGv0STGz-Q/videos?view_as=subscriber"><img src="../../image/social/yootube.svg" alt=""></a></li>
+                    </ul>
+                    <ul class="footer-info">
+                        <li><span>대표이사 : ㅇㅇㅇ</span><span>사업자번호 : 123-456-7890</span></li>
+                        <li><span>FAX : 02-862-2034</span><span>Mail : mail@info.com</span></li>
+                        <li>주소 : 서울시 금천구 가산디지털2로 98 롯데IT캐슬1동 1107~1108호</li>
+                    </ul>
+                    <ul class="footer-tell">
+                        <li><h5>(주)알피오<span class="fs20">대표전화</span></h5></li>
+                        <li><p class="fs24"><span class="fs20">TEL : </span> 02-862-2033</p></li>
+                    </ul>
                 </div>
             </footer>
+
         </div>
-
-        <!--====================
-        script 
-        ========================-->
-        <!--JQuery-->
-        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" charset="utf-8"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
+        <!----- \\ script \\ ----->
         <script src="../../js/nav.js"></script>
-        <script src="../../js/contact.js"></script>
     </body>
 </html>

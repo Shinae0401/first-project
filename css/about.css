@@ -1,0 +1,210 @@
+@import "common.css"; /* css 초기화*/
+
+.banner .banner__img {background: url(../image/about_img/about_main.png) no-repeat center; background-attachment: fixed; background-size: 100% 100%;}
+footer{position: relative; bottom: 70px;}
+
+/* ----- \\ about_1 \\ ----- */
+/* ov__1 */
+.ov__1 {
+    background: url(../image/about_img/about1/about_top_img.png) no-repeat center;
+    background-size: cover;  background-attachment: fixed; color: #fff; padding: 10em 0;}
+.ov__1 .container {position: relative; top: -40px; height: 100%; text-align: center;}
+.ov__1 p {padding: 1em 0;}
+.ov__1 .ov__1-box {width: 100%; margin-top: 2em;}
+.ov__1 .ov__1-box li {
+    width: calc(94%/4); border: 1px solid var(--border-line); text-align: center; padding: 1em; backdrop-filter: blur(10px); display: flex; flex-direction: column; align-items: center; /*transform: translateY(300%);*/
+}
+/*
+.ov__1 .ov__1-box .ov__1-item.active:nth-child(1) {transform: translateY(0); transition: 0.5s linear;}
+.ov__1 .ov__1-box .ov__1-item.active:nth-child(2) {transform: translateY(0); transition: 0.7s linear;}
+.ov__1 .ov__1-box .ov__1-item.active:nth-child(3) {transform: translateY(0); transition: 0.9s linear;}
+.ov__1 .ov__1-box .ov__1-item.active:nth-child(4) {transform: translateY(0); transition: 1.1s linear;}*/
+
+.ov__1 .ov__1-box li .ov__1-img {width: 100px; height: 100px;}
+.ov__1 .ov__1-box li:nth-child(1) .ov__1-img {
+    background: url(../../image/about_img/about1/info__1.png) no-repeat center; background-size: cover;}
+.ov__1 .ov__1-box li:nth-child(2) .ov__1-img {
+    background: url(../../image/about_img/about1/info__2.png) no-repeat center; background-size: cover;}
+.ov__1 .ov__1-box li:nth-child(3) .ov__1-img {
+    background: url(../../image/about_img/about1/info__3.png) no-repeat center; background-size: cover;}
+.ov__1 .ov__1-box li:nth-child(4) .ov__1-img {
+    background: url(../../image/about_img/about1/info__4.png) no-repeat center; background-size: cover;}
+.ov__1 .ov__1-box li .ov__1-txt {height: 8em;}
+.ov__1 .ov__1-box li .ov__1-txt > .fs18 {padding: 0;}
+
+/* ov__2 */
+.ov__2 {padding: 10em 0;}
+.ov__2 ul {gap: 3em;}
+.ov__2 ul li {display: flex; align-items: center; width: 100%;}
+.ov__2 ul li .ov__2-img {width: 50%; height: 35vh;}
+.ov__2 ul li .ov__2-img img {width: 100%; height: 100%;}
+.ov__2 ul li .ov__2-txt {width: 50%;}
+.ov__2 ul li .ov__2-txt span {font-weight: 600;}
+.ov__2 ul li:nth-child(odd) .ov__2-txt {padding-left: 30px;}
+.ov__2 ul li:nth-child(even) .ov__2-txt {padding-right: 30px; order: 1; text-align: right;}
+.ov__2 ul li:nth-child(even) .ov__2-img {order: 2;}
+
+/* ov__3 */
+.ov__3 {padding-bottom: 10em;}
+.ov__3 p {text-align: center; padding: 1em 0;}
+.ov__3 .ov__3-box li {display: flex; flex-direction: column; align-items: center; width: calc(94%/4);}
+.ov__3 .ov__3-box li .ov__3-img {display: flex; align-items: center; justify-content: center;}
+.ov__3 .ov__3-box li .ov__3-img img {width: 70%;}
+.ov__3 .ov__3-box li .ov__3-txt {display: flex; flex-direction: column; align-items: center; padding: 0 1em;}
+
+/* ov__4 */
+.ov__4 {text-align: center; padding-bottom: 10em;}
+.map {width: 100%;}
+iframe {width: 100%; height: 60vh; margin: 0 auto; padding: 2em 0;}
+
+
+/* about__1-media */
+@media(max-width:992px) {
+    /* ov__1 */
+    .ov__1 .ov__1-box li {padding: 0.5em;}
+    .ov__1 .ov__1-box li .ov__1-img {width: 80px; height: 80px;}
+
+    /* ov__3 */
+    .ov__3 .ov__3-box li {width: calc(94%/2); flex-wrap: wrap;}
+}
+
+@media(max-width:768px) {
+    /* ov__1 */
+    .ov__1 .ov__1-box {flex-wrap: wrap; gap: 1em;}
+    .ov__1 .ov__1-box li {width: calc(96%/2); flex-direction: row;}
+    .ov__1 .ov__1-box li .ov__1-img {width: 70px; height: 70px;}
+    .ov__1 .ov__1-box li .ov__1-txt {width: 80%; display: flex; flex-direction: column; justify-content: center;}
+
+    /* ov__2 */
+    .ov__2 ul li .ov__2-img {width: 40%; height: 25vh;}
+    .ov__2 ul li .ov__2-txt {width: 60%;}
+
+    /* ov__3 */
+    .ov__3 .ov__3-box li .ov__3-img img {width: 60%;}
+    
+}
+@media(max-width:576px) {
+    .ov__1 .ov__1-box li {width: calc(94%/2); flex-direction: column;}
+    .ov__1 .ov__1-box li .ov__1-img {width: 60px; height: 60px;}
+    .ov__1 .ov__1-box li .ov__1-txt {width: 100%; height: 6em;}
+
+    /* ov__2 */
+    .ov__2 ul li {flex-wrap: wrap;}
+    .ov__2 ul li .ov__2-img {width: 100%; height: 25vh;}
+    .ov__2 ul li .ov__2-txt {width: 100%; margin-top: 1em;}
+    .ov__2 ul li:nth-child(odd) .ov__2-txt {padding-left: 0;}
+    .ov__2 ul li:nth-child(even) .ov__2-txt {order: 2; text-align: left; padding-right: 0;}
+    .ov__2 ul li:nth-child(even) .ov__2-img {order: 1;}
+    
+    /* ov__3 */
+    .ov__3 .ov__3-box li .ov__3-img img {width: 50%;}
+
+}
+
+@media(max-width:400px) {
+    /* ov__3 */
+    .ov__3 .ov__3-box li {width: 100%; flex-direction: row;}
+    .ov__3 .ov__3-box li .ov__3-img {width: 40%;}
+    .ov__3 .ov__3-box li .ov__3-txt {width: 60%;}
+}
+
+
+.ov__3 .ov__3-box li .ov__3-img img {width: 70%;}
+.ov__3 .ov__3-box li .ov__3-txt {display: flex; flex-direction: column; align-items: center; padding: 0 1em;}
+
+
+@media(max-width:300px) {
+    /* ov__1 */
+    .ov__1 .ov__1-box {gap: 0.5em;}
+    .ov__1 .ov__1-box li {width: 100%; flex-direction: row;}
+    .ov__1 .ov__1-box li .ov__1-img {width: 50px; height: 50px;}
+    .ov__1 .ov__1-box li .ov__1-txt {width: 70%; height: 4em; text-align: left; margin-left: 1em;}
+
+    /* ov__2 */
+    .ov__2 ul li .ov__2-img {width: 100%; height: 15vh;}
+}
+
+
+/* ============================================================================== */
+
+/* ----- \\ about_3 \\ ----- */
+.history {padding-bottom: 10em;}
+.history .his__box {position:relative; display: flex; flex-wrap: wrap; justify-content: space-between; padding-bottom: 100px;}
+
+.history .his__box:before,
+.history .his__box .his__items:before {position:absolute; top:15px; left: 45%; margin-left: 100px; width:2px; height: 100%; background-color:var(--border-line); content:""; transition: all .5s;}
+.history .his__box:last-child:before {display: none;}
+.history .his__box .his__items:before {left: 100px; margin-left: 0;}
+
+/* his__img */
+.history .his__box .his__img {width:40%; position: relative; height: 350px; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; transform: translateX(-200%); transition: 0.5s ease;}
+
+.history .his__box:nth-child(1) .his__img {background: url(../image/about_img/about2/2022_1.png) no-repeat center; background-size: 100% 100%;}
+.history .his__box:nth-child(2) .his__img {background: url(../image/about_img/about2/2022_2.png) no-repeat center; background-size: 100% 100%;}
+.history .his__box:nth-child(3) .his__img {background: url(../image/about_img/about2/2022_3.png) no-repeat center; background-size: 100% 100%;}
+.history .his__box:nth-child(4) .his__img {background: url(../image/about_img/about2/2022_1.png) no-repeat center; background-size: 100% 100%;}
+.history .his__box:nth-child(5) .his__img {background: url(../image/about_img/about2/2022_2.png) no-repeat center; background-size: 100% 100%;}
+
+/* his__txt */
+.history .his__box .his__txt {width: 55%; transform: translateX(200%); transition: 0.5s ease;}
+.history .his__box .his__txt .his__items {position:relative;}
+.history .his__box .his__txt .his__items .his__item-year {position:absolute; top:0; left:0px; width:100px;}
+.history .his__box .his__txt .his__items .his__item-year:after {position:absolute; display:block; content:""; top:7px; right:-5px; width:8px; height:8px; background-color:var(--border-line); border-radius: 50%; transition: all .3s}
+.history .his__box .his__txt .his__items .his__item-year:before {position:absolute; display:block; content:""; top:6px; right:-9px; width:16px; height:16px; margin-top:-3px; background-color:#fff; border:1px solid var(--border-line); border-radius: 50%; transition: all .3s}
+.history .his__box .his__txt .his__items .his__item-year strong {position: relative; left: 10px; letter-spacing:-1px;}
+.history .his__box .his__txt .his__items .his__item-list {position: relative; top: 2em; padding-left: 130px;}
+.history .his__box .his__txt .his__items .his__item-list p {position: relative; line-height: 2em;}
+.history .his__box .his__txt .his__items .his__item-list p::before {position:absolute; display:block; content:""; top:10px;  left: -32px; width:6px; height:6px; background-color:var(--border-line); border-radius: 50%; transition: all .3s}
+.history .his__box .his__txt .his__items .his__item-list p span {padding-right: 10px;}
+
+/* over - script */
+.history .his__box.over:before,
+.history .his__box.over .his__items:before{background-color: var(--color-main)}
+.history .his__box.over .his__items .his__item-year:after {background-color: var(--color-main)}
+.history .his__box.over .his__items .his__item-year:before {border-color:var(--color-main)}
+.history .his__box.over .his__txt .his__items .his__item-year {color: var(--color-main);} 
+.history .his__box.over .his__txt .his__items .his__item-list p::before {background-color:var(--color-main)}
+.history .his__box .his__img.over, .history .his__box .his__txt.over {transform: translateX(0);}
+
+/* about__3-media */
+
+@media(max-width:768px) {
+    .history .his__box .his__img {height: 300px;}
+
+    .history .his__box {flex-direction: column; gap: 3em;}
+    .history .his__box:before {display: none;}
+    .history .his__box .his__img, .history .his__box .his__txt {width: 100%;}
+
+    .history .his__box .his__txt .his__items .his__item-year:after {right:-4px; width:6px; height:6px;}
+    .history .his__box .his__txt .his__items .his__item-year:before{right:-8px; width:14px; height:14px;}
+}
+@media(max-width:576px) {
+    .history .his__box .his__img {height: 250px;}
+
+    .history .his__box:before, .history .his__box .his__items:before {left: 20px; top: 19px; width: 1px;}
+    .history .his__box .his__txt .his__items .his__item-year {padding-left: 30px; padding-top: 4px;}
+    .history .his__box .his__txt .his__items .his__item-year:after {left: 17px; top: 10px;}
+    .history .his__box .his__txt .his__items .his__item-year:before {left: 13px; top: 9px;}
+    .history .his__box .his__txt .his__items .his__item-list {top: 3em; padding-left: 50px}
+    .history .his__box .his__txt .his__items .his__item-list p::before {top:7px;  left: -31px; width:3px; height:3px;}
+}
+
+
+/* ============================================================================== */
+
+/* ----- \\ about_4 \\ ----- */
+.award .container {padding-bottom: 10em;}
+.award__item {gap: 1em;}
+.award__item li {width: calc(94%/3); height: 70%; text-align: center;}
+.award__item .award__img {border: 2px solid var(--border-line); border-radius: 0.5em; transition: all 0.3s ease-in-out;}
+.award__item .award__img img {width: 100%; padding: 1em 2em;}
+.award__item .award__img:hover {box-shadow: 3px 3px 20px rgb(185, 185, 185); border: 2px solid var(--color-main);}
+
+.award__item .award__txt {margin-top: 0.5em;}
+
+.award__item li:hover .award__img {box-shadow: 3px 3px 20px rgb(185, 185, 185); border: 2px solid var(--color-main);}
+.award__item li:hover .award__txt {color: var(--color-main);}
+
+/* about__4-media */
+@media(max-width:768px) {.award__item li {width: calc(94%/2);}}
+@media(max-width:300px) {.award__item li {width: 100%;}}
