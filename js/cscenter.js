@@ -251,10 +251,10 @@ console.log(array);
 function showTable(curArray) {
   document.getElementById("csTable").innerHTML = `
   <colgroup>
-      <col class="col_1">
-      <col class="col_7">
-      <col class="col_1">
-      <col class="col_1">
+      <col class="col_10">
+      <col class="col_70">
+      <col class="col_10">
+      <col class="col_10">
   </colgroup>  
   <thead class="fs18">
     <tr>

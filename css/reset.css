@@ -54,17 +54,18 @@ audio,canvas,iframe,img,svg,video {vertical-align: middle;}
 img,video {max-width: 100%;}
 
 /* 테이블 스타일 초기화 */
-table {border-collapse:collapse; border-spacing:0; table-layout:fixed; width:100%; vertical-align: middle;}
+table {border-collapse:collapse; border-spacing:0; table-layout:fixed; width:100%; vertical-align: middle; line-height: 2em;}
 table th{word-wrap:break-word; font-weight: 600;}
 table td{word-wrap:break-word}
 
-table .col_1 {width: 10%;}
-table .col_2 {width: 20%;}
-table .col_3 {width: 30%;}
-table .col_4 {width: 40%;}
-table .col_5 {width: 50%;}
-table .col_6 {width: 60%;}
-table .col_7 {width: 70%;}
+table .col_10 {width: 10%;}
+table .col_15 {width: 15%;}
+table .col_20 {width: 20%;}
+table .col_30 {width: 30%;}
+table .col_40 {width: 40%;}
+table .col_50 {width: 50%;}
+table .col_60 {width: 60%;}
+table .col_77 {width: 70%;}
 
 
 
@@ -152,7 +153,8 @@ h1, h2, h3, h4, h5, h6, p span {line-height: 1.5em; font-weight: initial;}
 .fs38 {font-size: 38px; font-weight: 600;} 
 .fs40 {font-size: 40px; font-weight: 600;} /* h3 */
 .fs48 {font-size: 48px; font-weight: 600;} /* h2 */
-.fs64 {font-size: 64px; font-weight: 600;}
+.fs60 {font-size: 60px; font-weight: 600;} /* pd-h3*/
+.fs64 {font-size: 64px; font-weight: 600;} /*banner*/
 
 /* font-size__media */
 @media(max-width:992px) {
@@ -170,6 +172,7 @@ h1, h2, h3, h4, h5, h6, p span {line-height: 1.5em; font-weight: initial;}
     .fs38 {font-size: 35.625px;}
     .fs40 {font-size: 37.5px;}
     .fs48 {font-size: 45px;}
+    .fs60 {font-size: 56.25px;}
     .fs64 {font-size: 60px;}
 }
 @media(max-width:768px) {
@@ -187,6 +190,7 @@ h1, h2, h3, h4, h5, h6, p span {line-height: 1.5em; font-weight: initial;}
     .fs38 {font-size: 30.875px;}
     .fs40 {font-size: 32.5px;}
     .fs48 {font-size: 39px;}
+    .fs60 {font-size: 48.75px;}
     .fs64 {font-size: 52px;}
 }
 
@@ -205,6 +209,7 @@ h1, h2, h3, h4, h5, h6, p span {line-height: 1.5em; font-weight: initial;}
     .fs38 {font-size: 26.125px;}
     .fs40 {font-size: 27.5px;}
     .fs48 {font-size: 33px;}
+    .fs60 {font-size: 41.25px;}
     .fs64 {font-size: 44px;}
 }
 @media(max-width:400px) {
@@ -222,31 +227,53 @@ h1, h2, h3, h4, h5, h6, p span {line-height: 1.5em; font-weight: initial;}
     .fs38 {font-size: 21.375px;}
     .fs40 {font-size: 22.5px;}
     .fs48 {font-size: 27px;}
+    .fs60 {font-size: 33.75px;}
     .fs64 {font-size: 36px;}
 }
 
 /* ----- \\ :root \\ ----- */
 :root {
+    --color-main: #fd7e14;
+    --main-bg : #f5f8fa;
+
+    --d-orange :#F2541B;
+    --m-green :#fd7e14;
+
+    --d-green :#01261F;
+    --m-green :#01261F;
+    --l-green :#88BFB5;
+
+    --m-blue :#96B3D9;
+    --l-blue :#D5E7F2;
+
+    --d-gray :#737372;
+    --m-gray :#8C8C8C;
+    --l-gray :#F2F2F2;
+
+
     --dark-black: #080a14;
+    --light-gray :#f5f5f7;
+    --gray: #787A91; 
     --dark-gray: #222831;
     --border-line : #E6E6E6;
 
     --font-white : #f5f7fa;
+    --font_dark-gray: #222831; /*product h3*/
 
     --white : #f2f2f2;
-    --gray: #787A91; 
+    
     --light-blue: #bcd8ff;
 
-    --white-bg : #f5f7fa;
-    --main-bg : #f4f8fa;
-    
+    --white-bg : #f5f8fa;
+
     --dark-bg : #222831;
+
+
     --color-line1: #fd7e14;
     --color-line2: #aaa;
-    --color-main: #fd7e14;
+
     --color-font1: #fd7e14;
     --sky-blue : #D3E0DC;
     --font-dark: #080a14;
     --font-dark-gray : #17223B;
-    --dark-gray: #222831;
 }

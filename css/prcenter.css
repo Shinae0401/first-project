@@ -4,7 +4,7 @@
     background: url(../image/news_img/news_cover.png) no-repeat center;
     background-attachment: fixed; background-size: 100% 100%;}
 :root {--minRangeValue: 280px;}
-footer{position: relative; bottom: 50px;}
+footer{position: relative; bottom: 70px;}
 
 main {margin-bottom: 100px;}
 

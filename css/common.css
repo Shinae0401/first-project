@@ -181,11 +181,13 @@ header .logo img {height: 2em; padding-left: 2em;}
     header {border-bottom: none; height: 60px;}
     .searchTop {top: -9px;}
     .lang__menu, .ham__btn {top: -10px;}
+    .navigation .menu_1 .menu_1_list > a {font-size: 16px;}
+    .navigation .menu_1 .menu_1_list .menu_2 > li a {font-size: 14px;}
+    .navigation .menu_1 .menu_1_list .menu_2 .menu_3 > li a {font-size: 12px;}
 }
 
 @media (max-width: 400px) {
-    #go-top {width: 40px; height: 40px;} 
-    #go-top #go-top-value {width: 34px; height: 34px;}
+    #go-top {display: none;} 
     .searchTop {right: 80px; font-size: 13px;}
     .searchTop .searchBox {width: 150px;}
     .searchTop .searchIcon .closeBtn {top: 4px; right: 10px;}
@@ -193,9 +195,6 @@ header .logo img {height: 2em; padding-left: 2em;}
     .lang__menu .lang__list a img {width: 20px;}
     .ham__btn {width: 50px;}
     .ham__btn .hamburger .line {width: 18px; height: 1.8px;}
-    .navigation .menu_1 .menu_1_list > a {font-size: 16px;}
-    .navigation .menu_1 .menu_1_list .menu_2 > li a {font-size: 14px;}
-    .navigation .menu_1 .menu_1_list .menu_2 .menu_3 > li a  {font-size: 12px;}
 }
 
 @media (max-width: 300px) {
@@ -260,22 +259,26 @@ header .logo img {height: 2em; padding-left: 2em;}
 /* ============================================================================== */
 
 /* ----- \\ side__menu \\ ----- */
-#side__menu {background-color: var(--main-bg); width: 100%; z-index: 91;}
+#side__menu {background-color: #fff; width: 100%; z-index: 91;}
 #side__menu.sticky {position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);}
 #side__menu .subMn {width: 100%; bottom: 0; left: 0; gap: 3em; color:var(--gray);}
 #side__menu .subMn > li > a {position: relative; line-height: 70px;}
 #side__menu .subMn > li > a::after {
     position: absolute; bottom: -10px; left: 0; content: ""; width: 0; height: 3px;
     background-color: var(--color-main); transition: all 0.3s ease;}
-#side__menu .subMn > li > a.active, .subMn > li > a:hover {color: var(--dark-black); font-weight: 600;}
+#side__menu .subMn > li > a.active {color: var(--dark-black); font-weight: 600;}
+#side__menu .subMn > li > a:hover {color: var(--dark-black);}
 #side__menu .subMn > li > a.active:after {width: 100%;}
+
+/* ----- \\ side__menu__media \\ ----- */
+@media (max-width: 768px) {#side__menu .subMn > li > a {position: relative; line-height: 60px;}}
+@media (max-width: 576px) {#side__menu .subMn > li > a {position: relative; line-height: 50px;}}
 
 /* ============================================================================== */
 
 /* ----- \\ main_title \\ ----- */
 .main_title .container {padding: 2em 0; color: var(--dark-black);}
 .main_title > p {color: #7e7e7e;}
-
 
 /* ============================================================================== */
 
@@ -302,7 +305,7 @@ footer .container {padding: 2em 1em;}
 /* footer-tell */
 .footer-tell {width: 50%; text-align: right; margin-top: 1em;}
 .footer-tell h5 {color: var(--white);}
-.footer-tell > p {color: var(--color-main);}
+.footer-tell p {color: var(--color-main);}
 
 /* ----- \\ footer__media \\ ----- */
 /* @media (max-width:768px) */
