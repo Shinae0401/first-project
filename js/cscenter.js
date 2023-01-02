@@ -396,14 +396,14 @@ function displayPage(num) {
   if (pageActiveIdx == 0) {
     prevPageBtn.style.display = "none";
   } else {
-    prevPageBtn.style.background = "#fd7e14";
+    prevPageBtn.style.background = "#61BBB9";
     prevPageBtn.style.display = "";
   }
   // 마지막페이지 => next 버튼 안보이기
   if (pageActiveIdx == totalPageCount - 1) {
     nextPageBtn.style.display = "none";
   } else {
-    nextPageBtn.style.background = "#fd7e14";
+    nextPageBtn.style.background = "#61BBB9";
     nextPageBtn.style.display = "";
   }
 }

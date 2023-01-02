@@ -107,13 +107,18 @@ progress {
 
 
 /* ----- \\ container \\ ----- */
-.container {max-width: 1320px; margin: 0 auto; padding: 0 1em;}
+.container {max-width: 1320px; margin: 0 auto; padding: 0 10px;}
+.container0 {padding: 0 10px;}
 
 /* container__media */
 @media(max-width:1200px) {.container {max-width: 1140px;}}
 @media(max-width:992px) {.container {max-width: 960px;}}
 @media(max-width:768px) {.container {max-width: 720px;}}
 @media(max-width:576px) {.container {max-width: 100%;}}
+
+/* ----- \\ padding \\ ----- */
+.pd-Bt70 {padding-bottom: 70px;}
+
 
 /* ----- \\ display \\ ----- */
 .fRow {display: flex; flex-direction: row;}
@@ -129,11 +134,14 @@ progress {
 
 .fCol {display: flex; flex-direction: column;}
 .fColIc {display: flex; flex-direction: column; align-items: center;}
+.fColIs {display: flex; flex-direction: column; align-items: flex-start;}
 .fColJc {display: flex; flex-direction: column; justify-content: center;}
+.fColJr {display: flex; flex-direction: column; justify-content: right;}
 .fColIcJc {display: flex; flex-direction: column; align-items: center; justify-content: center;}
 .fColIcJb {display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
 
 .fWrap {flex-wrap: wrap;}
+
 
 /* ----- \\ font-size \\ ----- */
 h1, h2, h3, h4, h5, h6, p span {line-height: 1.5em; font-weight: initial;}
@@ -233,47 +241,45 @@ h1, h2, h3, h4, h5, h6, p span {line-height: 1.5em; font-weight: initial;}
 
 /* ----- \\ :root \\ ----- */
 :root {
-    --color-main: #fd7e14;
-    --main-bg : #f5f8fa;
+    /* background */
+    --white-bg :#fff;
+    --dark-bg :#222222; /*footer*/
 
-    --d-orange :#F2541B;
-    --m-green :#fd7e14;
+    --line :#F2F2F2;
 
-    --d-green :#01261F;
-    --m-green :#01261F;
-    --l-green :#88BFB5;
+    --font-white :#f5f7fa; 
+    --font-green :#AEF2F2;
 
-    --m-blue :#96B3D9;
-    --l-blue :#D5E7F2;
+    --m-purple :#8985F2; /*contact*/
+    --purple :#E0CCE7;
 
-    --d-gray :#737372;
-    --m-gray :#8C8C8C;
-    --l-gray :#F2F2F2;
+    --pink : #F39F92;
+    --d-orange :#d74139;
+    --m-orange :#ff742b;
+    --l-orange :#FDB67E;
 
+    --d-green :#01261F; 
+    --m-green :#38E54D;
+    --l-green :#7CC182; /*tech*/
 
-    --dark-black: #080a14;
-    --light-gray :#f5f5f7;
-    --gray: #787A91; 
-    --dark-gray: #222831;
-    --border-line : #E6E6E6;
+    --d-blue :#435560; 
+    --m-blue :#61BBB9; /*cs pr*/
+    --l-blue :#D8E6F2;
 
-    --font-white : #f5f7fa;
-    --font_dark-gray: #222831; /*product h3*/
+    --d-gray :#787A91; /*side-menu*/
+    --m-gray :#d1d9df;  /*ft-social*/
+    --l-gray :#f8f9fa;  /*side-menu*/
 
-    --white : #f2f2f2;
+    /* font */
+    --font_main:#61BBB9;
+    --font_black:#283043;
     
-    --light-blue: #bcd8ff;
-
-    --white-bg : #f5f8fa;
-
-    --dark-bg : #222831;
+    --font_d-gray:#222831; /*product h3*/
+    --font_m-gray:#7b868e; /*product h3*/
+    --font-white :#f5f7fa; /* main__nav */
 
 
-    --color-line1: #fd7e14;
-    --color-line2: #aaa;
+    --beige :#f1eae1;
+    --border-line :#E6E6E6;
 
-    --color-font1: #fd7e14;
-    --sky-blue : #D3E0DC;
-    --font-dark: #080a14;
-    --font-dark-gray : #17223B;
 }

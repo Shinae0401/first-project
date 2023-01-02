@@ -1,28 +1,27 @@
 @import "common.css"; /* css 초기화*/
 
 .banner .banner__img {background: url(../image/contact_img/contact_main.jpg) no-repeat center; background-attachment: fixed; background-size: 100% 100%;}
-
 #side__menu {background: none;}
-.main_title .sub_txt {color: var(--dark-black)}
+.contactUs .sub_txt {padding: 50px 0;}
 
 .contact__form > li {display: flex; align-items: center; margin-top: 1.5em;}
 .contact__form > li .inputBox {width: 85%; position: relative; left: 0; display: flex; align-items: center;}
 
 /* ----- \\ label \\ ----- */
 .contact__form > li > label {width: 15%; color: #080a14;}
-.contact__form > li > label sup {margin-left: 5px; color: var(--color-main); font-weight: 700;}
+.contact__form > li > label sup {margin-left: 5px; color: var(--m-purple); font-weight: 700;}
 
 /* ----- \\ input \\ ----- */
 .contact__form .text__box {
     height: 50px; width: 15em; padding: 0 1.25em; border-radius: 6px; border: 1px solid transparent;
-    background-color: var(--main-bg); font-size: inherit;}
+    background-color: var(--l-gray); font-size: inherit;}
 
 /* ----- \\ check__box \\ ----- */
 .check__box .check__item {width: 85%; height: 100%; gap: 2em;}
 .check__box .check__item li {height: 100%; display: flex; flex-direction: column; align-items: center; gap: 0.5em;}
 .check__box .check__item li .check__item-img {width: 40px;}
 .check__box .check__item li span {gap: 0.4em;}
-.check__box .check__item li input:checked + label {color: var(--color-main);}
+.check__box .check__item li input:checked + label {color: var(--m-purple);}
 
 /* ----- \\ name__box \\ ----- */
 .name__box .inputBox .name {width: 20em;}
@@ -34,7 +33,7 @@
     border-radius: 6px;  border: 1px solid transparent; 
     -webkit-appearance: none; -moz-appearance: none; appearance: none;
     background: url(../image/contact_img/num-arrow-down.png)no-repeat;
-    background-position: 85% center; background-color: var(--main-bg);}
+    background-position: 85% center; background-color: var(--l-gray);}
 
 /* ----- \\ email__box \\ ----- */
 .email__box .email span {margin: 0 10px;}
@@ -46,14 +45,14 @@
 /* ----- \\ textarea__box \\ ----- */
 .textarea__box textarea {
     width: 100%; min-height: 11.25em; padding: 1.25em; border-radius: 6px;
-    border: 1px solid transparent; resize: none; background-color: var(--main-bg);}
+    border: 1px solid transparent; resize: none; background-color: var(--l-gray);}
 .textarea__box textarea::placeholder {color: #888; font-size: inherit;}
-.textarea__box textarea:focus {outline:none; background: #fff; border: 2px solid var(--color-main); box-sizing: border-box;}
+.textarea__box textarea:focus {outline:none; background: #fff; border: 2px solid var(--m-purple); box-sizing: border-box;}
 
 /* ----- \\ attach-files \\ ----- */
 .attach-files .fileBox__box {width: 85%;}
 .attach-files .fileBox__box .fileBox {width: 100%; display: flex;}
-.attach-files .fileBox .upload-name {width: 85%; padding: 0 1.25em; font-size: inherit; background-color: var(--main-bg);}
+.attach-files .fileBox .upload-name {width: 85%; padding: 0 1.25em; font-size: inherit; background-color: var(--l-gray);}
 .attach-files .fileBox .file {
     width: 15%; height: 3.125em; line-height: 3.125em; text-align: center; font-size: inherit; margin-left: 0.625em;
     border: 1px solid #080a14; border-radius: 0.4em; cursor: pointer;}
@@ -64,20 +63,20 @@
 /* ----- \\ privacy__box \\ ----- */
 .privacy__box {border: 1px solid var(--border-line);}
 .privacy__box .label-text-top {width: 15%; text-align: center;}
-.privacy__box .privacy {width: 85%; height: 13.125em; padding: 2em; background-color: var(--main-bg);
+.privacy__box .privacy {width: 85%; height: 13.125em; padding: 2em; background-color: var(--l-gray);
     box-sizing: border-box;  overflow-y: scroll;}
 .privacy__box .privacy h6 {margin: 1em; font-weight: 500;}
-.privacy__box .privacy p {color: var(--dark-gray);; padding: 0 1em;  margin-bottom: 1.25em;}
+.privacy__box .privacy p {color: var(--font_d-gray);; padding: 0 1em;  margin-bottom: 1.25em;}
 
 /* ----- \\ agree-check \\ ----- */
 .agree-check {margin-top: 1.25em;}
 .agree-check .checkbox {width: 1.25em; height: 1.25em; margin-right: 1em;}
-.agree-check .check-text {color: var(--dark-gray);}
+.agree-check .check-text {color: var(--font_d-gray);}
 
 /* ----- \\ end-box \\ ----- */
 .end-box > button {padding: 1em 3em; margin: 3em 0; border-radius: 0.4em; border: none;
-    background: var(--color-main); color: #fff; font-weight: 600; cursor: pointer; transition: all 0.5s;}
-.end-box > button:hover {box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;}
+    border: 2px solid var(--m-purple); color: var(--m-purple); font-weight: 600; cursor: pointer; transition: all 0.5s;}
+.end-box > button:hover {background-color: var(--m-purple); color: #fff;}
 
 /* ----- \\ contact__media \\ ----- */
 @media(max-width:1000px) {

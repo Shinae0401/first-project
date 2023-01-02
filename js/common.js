@@ -23,6 +23,7 @@ let calcScrollValue = () => {
 window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
 
+
 // side__menu //
 $(function() {
   let wind = $(window),
@@ -31,9 +32,9 @@ $(function() {
 
   wind.scroll(function() {
     if ($(this).scrollTop() >= sideMenuTop) {
-      sideMenu.addClass("sticky");
+      sideMenu.addClass("on");
     } else if ($(this).scrollTop() <= sideMenuTop) {
-      sideMenu.removeClass("sticky");
+      sideMenu.removeClass("on");
     }
   });    
 });

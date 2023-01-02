@@ -51,79 +51,31 @@ $(function () {
   };
 });
 
-// ham__btn, overlay-navigation//
+// ham__btn //
 $(function () {
-  let hamburger = $(".hamburger");
-  (overlay_navigation = $(".overlay-nav")),
-    (nav_item_1 = $(".menu_1_list:nth-child(1)")),
-    (nav_item_2 = $(".menu_1_list:nth-child(2)")),
-    (nav_item_3 = $(".menu_1_list:nth-child(3)")),
-    (nav_item_4 = $(".menu_1_list:nth-child(4)")),
-    (nav_item_5 = $(".menu_1_list:nth-child(5)"));
-  nav_item_6 = $(".menu_1_list:nth-child(6)");
+  let hamburger = $(".hamburger"),
+      overlayMenu = $(".overlay__menu");
 
   hamburger.click(function () {
     $(this).toggleClass("is-active");
-    overlay_navigation.toggleClass("overlay-active");
-    if (overlay_navigation.hasClass("overlay-active")) {
-      overlay_navigation
-        .removeClass("overlay-slide-up")
-        .addClass("overlay-slide-down");
-      nav_item_1
-        .removeClass("slide-in-nav-item-reverse")
-        .addClass("slide-in-nav-item");
-      nav_item_2
-        .removeClass("slide-in-nav-item-delay-1-reverse")
-        .addClass("slide-in-nav-item-delay-1");
-      nav_item_3
-        .removeClass("slide-in-nav-item-delay-2-reverse")
-        .addClass("slide-in-nav-item-delay-2");
-      nav_item_4
-        .removeClass("slide-in-nav-item-delay-3-reverse")
-        .addClass("slide-in-nav-item-delay-3");
-      nav_item_5
-        .removeClass("slide-in-nav-item-delay-4-reverse")
-        .addClass("slide-in-nav-item-delay-4");
-      nav_item_6
-        .removeClass("slide-in-nav-item-delay-5-reverse")
-        .addClass("slide-in-nav-item-delay-5");
-    } else {
-      overlay_navigation
-        .removeClass("overlay-slide-down")
-        .addClass("overlay-slide-up");
-      nav_item_1
-        .removeClass("slide-in-nav-item")
-        .addClass("slide-in-nav-item-reverse");
-      nav_item_2
-        .removeClass("slide-in-nav-item-delay-1")
-        .addClass("slide-in-nav-item-delay-1-reverse");
-      nav_item_3
-        .removeClass("slide-in-nav-item-delay-2")
-        .addClass("slide-in-nav-item-delay-2-reverse");
-      nav_item_4
-        .removeClass("slide-in-nav-item-delay-3")
-        .addClass("slide-in-nav-item-delay-3-reverse");
-      nav_item_5
-        .removeClass("slide-in-nav-item-delay-4")
-        .addClass("slide-in-nav-item-delay-4-reverse");
-      nav_item_6
-        .removeClass("slide-in-nav-item-delay-5")
-        .addClass("slide-in-nav-item-delay-5-reverse");
+    overlayMenu.toggleClass("active");
+  });
+
+
+});
+
+
+
+$(function () {
+  let overlayMenu1 = $(".overlay__menu > ul > li");
+
+  overlayMenu1.click(function () {
+    if($(this).hasClass("on")) {
+      $(this).removeClass("on");
+    }else {
+      $(this).addClass("on");
     }
   });
 });
 
-$(function () {
-  let menu_1 = $(".menu_1 li a");
-  let menu_2 = $(".menu_2 li a");
 
-  menu_1.click(function () {
-    let menu_3 = $(this).next(".menu_2");
-    menu_3.toggle("active");
-  });
-
-  menu_2.click(function () {
-    let menu_4 = $(this).next(".menu_3");
-    menu_4.toggle("active");
-  });
-});

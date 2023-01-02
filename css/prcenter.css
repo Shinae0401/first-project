@@ -9,8 +9,9 @@ footer{position: relative; bottom: 70px;}
 main {margin-bottom: 100px;}
 
 /* ----- \\ search-wrapper \\ ----- */
+.toolbar {border-bottom: 2px solid var(--m-blue); padding-bottom: 10px;}
 .search-wrapper {width: 30%; position: relative; overflow: hidden;}
-.search-wrapper input {width: 100%; padding: 0.6em; border: 1px solid var(--gray); border-radius: 4px;}
+.search-wrapper input {width: 100%; padding: 0.6em; border: 1px solid var(--border-line); border-radius: 4px;}
 .search-wrapper p {margin-left: 1em;}
 
 /* ----- \\ page_bar \\ ----- */
@@ -18,13 +19,13 @@ main {margin-bottom: 100px;}
 .page_bar li {display: inline-block; margin: 5px; box-shadow: 0 5px 25px rgba(1,1,1,0.1);}
 .page_bar li a {color: #fff; line-height: 40px;}
 .previous-page, 
-.next-page {background:var(--color-main); width: 80px; border-radius: 40px; cursor: pointer; transition: 0.3s ease;}
+.next-page {background:var(--m-blue); width: 80px; border-radius: 40px; cursor: pointer; transition: 0.3s ease;}
 .previous-page:hover {transform: translateX(-5px);}
 .next-page:hover {transform: translateX(5px);}
 .current-page,
-.dots {background: #ccc; width: 40px; border-radius: 50%; cursor: pointer;}
-.page_bar li.active {background:var(--color-main); color: #fff;}
-.disable {background: #ccc;}
+.dots {background: #ddd; width: 40px; border-radius: 50%; cursor: pointer;}
+.page_bar li.active {background:var(--m-blue); color: #fff;}
+.disable {background: #ddd;}
 
 /* ----- \\ page_bar__media \\ ----- */
 @media(max-width:768px) {
@@ -51,7 +52,7 @@ img {display: block; max-width: 100%; height: auto;}
 .toolbar {margin-bottom: 1em;}
 .view-options li:not(:last-child) {margin-right: 1.2em;}
 .view-options button {padding: 2px; border: 3px solid transparent;}
-.view-options .active button {border-color:var(--color-main);}
+.view-options .active button {border-color:var(--m-blue);}
 
 /* IMAGE LIST */
 .image-list {margin-bottom: 3em;}
@@ -65,7 +66,7 @@ img {display: block; max-width: 100%; height: auto;}
 .image-list li .post-date span {font-size: 1.5em; margin-right: 0.5em;}
 .image-list li figure {overflow: hidden;}
 .image-list li figure img {width: 100%; height: 100%; transform: scale(1,1); transition: 0.3s linear;}
-.image-list li:hover h4 {color: var(--color-main);}
+.image-list li:hover h4 {color: var(--m-blue);}
 .image-list li:hover img {transform: scale(1.1,1.1);}
 .image-list li:hover {border: none; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; }
 
